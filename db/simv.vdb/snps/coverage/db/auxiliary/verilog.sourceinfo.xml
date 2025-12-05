@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_srcinfo.dtd">
+  <srcinfo name="/home/runner"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="U-2023.03-SP2"  />
+      <fileinfo name="raid_pkg.sv"  id="0"  timestamp="1764923468"  />
+      <fileinfo name="spi_master_if.sv"  id="1"  timestamp="1764923468"  />
+      <fileinfo name="spi_slave_if.sv"  id="2"  timestamp="1764923468"  />
+      <fileinfo name="spi_master_driver.sv"  id="3"  timestamp="1764923468"  />
+      <fileinfo name="spi_master_monitor.sv"  id="4"  timestamp="1764923468"  />
+      <fileinfo name="raid_cov.sv"  id="5"  timestamp="1764923468"  />
+      <fileinfo name="raid_scoreboard.sv"  id="6"  timestamp="1764923468"  />
+      <fileinfo name="raid_env.sv"  id="7"  timestamp="1764923468"  />
+      <fileinfo name="raid_base_test.sv"  id="8"  timestamp="1764923468"  />
+      <fileinfo name="raid_tests.sv"  id="9"  timestamp="1764923468"  />
+      <fileinfo name="flash_stub.sv"  id="10"  timestamp="1764923468"  />
+      <fileinfo name="testbench.sv"  id="11"  timestamp="1764923468"  />
+      <fileinfo name="design.sv"  id="12"  timestamp="1764923468"  />
+      <fileinfo name="raider.v"  id="13"  timestamp="1764923468"  />
+      <fileinfo name="serial_interface.v"  id="14"  timestamp="1764923468"  />
+      <fileinfo name="flash_mux_miso.v"  id="15"  timestamp="1764923468"  />
+      <fileinfo name="flash_mux_no_miso.v"  id="16"  timestamp="1764923468"  />
+      <fileinfo name="host_mux.v"  id="17"  timestamp="1764923468"  />
+      <fileinfo name="instruction_decoder.v"  id="18"  timestamp="1764923468"  />
+      <fileinfo name=""  id="19"  />
+    </srcinfo>

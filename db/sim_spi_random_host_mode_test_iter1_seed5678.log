@@ -1,0 +1,25 @@
+Command: /home/runner/./simv +TEST=spi_random_host_mode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_host_mode_test_iter1_seed5678.vdb -l sim_spi_random_host_mode_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1726000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x00064d len=2 from=secondary)
+[1726000][SB] Read data mismatch @0 exp=b2 got=07 addr=0x00064d
+[1726000][SB] Read data mismatch @1 exp=b1 got=08 addr=0x00064d
+[3976000][SB] Read data mismatch @0 exp=bc got=0a addr=0x000243
+[3976000][SB] Read data mismatch @1 exp=bb got=09 addr=0x000243
+[4726000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x0007f1 len=2 from=secondary)
+[4726000][SB] Read data mismatch @0 exp=0e got=8f addr=0x0007f1
+[4726000][SB] Read data mismatch @1 exp=0d got=90 addr=0x0007f1
+[4726000][SB] Read data mismatch @0 exp=0a got=70 addr=0x0009f5
+[4726000][SB] Read data mismatch @1 exp=09 got=6f addr=0x0009f5
+==== TEST spi_random_host_mode_test FAILED: 10 errors (SB=10, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7231000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7231000 ps
+CPU Time:      0.560 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:37 2025

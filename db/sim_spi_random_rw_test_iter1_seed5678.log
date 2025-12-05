@@ -1,0 +1,30 @@
+Command: /home/runner/./simv +TEST=spi_random_rw_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_rw_test_iter1_seed5678.vdb -l sim_spi_random_rw_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2866000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x000d31 len=4 from=main)
+[2866000][SB] Read length mismatch exp=4 got=3 @0x000d31
+[3521000][SB] Write payload mismatch idx0 exp=36 got=31 addr=0x001009
+[3521000][SB] Write payload mismatch idx1 exp=64 got=32 addr=0x001009
+[3521000][SB] Write payload mismatch idx2 exp=72 got=33 addr=0x001009
+[3521000][SB] Write payload mismatch idx3 exp=f3 got=34 addr=0x001009
+[4176000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000840 len=3 from=main)
+[4176000][SB] Write payload mismatch idx0 exp=8f got=36 addr=0x000840
+[4176000][SB] Write payload mismatch idx1 exp=55 got=64 addr=0x000840
+[4176000][SB] Write payload mismatch idx2 exp=6f got=72 addr=0x000840
+[4751000][SB] Read length mismatch exp=4 got=3 @0x002808
+[5406000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002e83 len=2 from=main)
+[5406000][SB] Write payload mismatch idx0 exp=27 got=f7 addr=0x002e83
+[5406000][SB] Write payload mismatch idx1 exp=a8 got=f6 addr=0x002e83
+[5901000][SB] Read length mismatch exp=4 got=2 @0x0004f0
+==== TEST spi_random_rw_test FAILED: 15 errors (SB=15, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7556000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7556000 ps
+CPU Time:      0.480 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:34 2025

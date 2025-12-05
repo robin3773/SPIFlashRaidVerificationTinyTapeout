@@ -1,0 +1,27 @@
+Command: /home/runner/./simv +TEST=spi_reset_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_reset_test_iter1_seed1234.vdb -l sim_spi_reset_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[486000][TEST spi_reset_test] MGMT read mismatch @0x00 exp=00 got=ff
+[741000][TEST spi_reset_test] MGMT read mismatch @0x01 exp=00 got=ff
+[996000][TEST spi_reset_test] MGMT read mismatch @0x02 exp=00 got=ff
+[2016000][TEST spi_reset_test] MGMT read mismatch @0x06 exp=00 got=ff
+[2271000][TEST spi_reset_test] MGMT read mismatch @0x07 exp=00 got=ff
+[2526000][TEST spi_reset_test] MGMT read mismatch @0x08 exp=00 got=ff
+[7571000][TEST spi_reset_test] MGMT read mismatch @0x00 exp=00 got=ff
+[7826000][TEST spi_reset_test] MGMT read mismatch @0x01 exp=00 got=ff
+[8081000][TEST spi_reset_test] MGMT read mismatch @0x02 exp=00 got=ff
+[9101000][TEST spi_reset_test] MGMT read mismatch @0x06 exp=00 got=ff
+[9356000][TEST spi_reset_test] MGMT read mismatch @0x07 exp=00 got=ff
+[9611000][TEST spi_reset_test] MGMT read mismatch @0x08 exp=00 got=ff
+==== TEST spi_reset_test FAILED: 12 errors (SB=0, TEST=12) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             11886000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11886000 ps
+CPU Time:      0.520 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:16 2025

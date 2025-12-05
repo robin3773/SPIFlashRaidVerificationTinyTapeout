@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: instruction_decoder</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_instruction_decoder'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_instruction_decoder')">instruction_decoder</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s3 cl rt"> 39.68</td>
+<td class="s5 cl rt"><a href="mod4.html#Line" > 56.25</a></td>
+<td class="s2 cl rt"><a href="mod4.html#Cond" > 28.57</a></td>
+<td class="s5 cl rt"><a href="mod4.html#Toggle" > 50.84</a></td>
+<td class="s2 cl rt"><a href="mod4.html#FSM" > 22.22</a></td>
+<td class="s4 cl rt"><a href="mod4.html#Branch" > 40.54</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/runner/instruction_decoder.v')">/home/runner/instruction_decoder.v</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod4.html#inst_tag_6"  onclick="showContent('inst_tag_6')">testbench.dut.u_raider.u_instruction_decoder</a></td>
+<td class="s3 cl rt"> 39.68</td>
+<td class="s5 cl rt"><a href="mod4.html#Line" > 56.25</a></td>
+<td class="s2 cl rt"><a href="mod4.html#Cond" > 28.57</a></td>
+<td class="s5 cl rt"><a href="mod4.html#Toggle" > 50.84</a></td>
+<td class="s2 cl rt"><a href="mod4.html#FSM" > 22.22</a></td>
+<td class="s4 cl rt"><a href="mod4.html#Branch" > 40.54</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_instruction_decoder'>
+<hr>
+<a name="inst_tag_6"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_6" >testbench.dut.u_raider.u_instruction_decoder</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s3 cl rt"> 39.68</td>
+<td class="s5 cl rt"><a href="mod4.html#Line" > 56.25</a></td>
+<td class="s2 cl rt"><a href="mod4.html#Cond" > 28.57</a></td>
+<td class="s5 cl rt"><a href="mod4.html#Toggle" > 50.84</a></td>
+<td class="s2 cl rt"><a href="mod4.html#FSM" > 22.22</a></td>
+<td class="s4 cl rt"><a href="mod4.html#Branch" > 40.54</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s3 cl rt"> 39.68</td>
+<td class="s5 cl rt"> 56.25</td>
+<td class="s2 cl rt"> 28.57</td>
+<td class="s5 cl rt"> 50.84</td>
+<td class="s2 cl rt"> 22.22</td>
+<td class="s4 cl rt"> 40.54</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s8 cl rt"> 87.72</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="s6 cl rt"> 63.16</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td><a href="mod1.html#inst_tag_3" >u_raider</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_instruction_decoder'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod4.html" >instruction_decoder</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s5"><td class="lf">TOTAL</td><td></td><td>80</td><td>45</td><td>56.25</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>58</td><td>13</td><td>13</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>82</td><td>5</td><td>5</td><td>100.00</td></tr>
+<tr class="s3"><td class="lf">ALWAYS</td><td>93</td><td>21</td><td>8</td><td>38.10</td></tr>
+<tr class="s4"><td class="lf">ALWAYS</td><td>136</td><td>41</td><td>19</td><td>46.34</td></tr>
+</table>
+<pre class="code"><br clear=all>
+57                          always @(posedge clk) begin
+58         1/1                  if (rst) begin
+59         1/1                      h_clk_r1 &lt;= 1'b0;
+60         1/1                      h_clk_r2 &lt;= 1'b0;
+61         1/1                      h_cs_n_r1 &lt;= 1'b1;
+62         1/1                      h_cs_n_r2 &lt;= 1'b1;
+63         1/1                      h_mosi_r1 &lt;= 1'b0;
+64         1/1                      h_mosi_r2 &lt;= 1'b0;
+65                              end else begin
+66         1/1                      h_clk_r1 &lt;= h_clk;
+67         1/1                      h_clk_r2 &lt;= h_clk_r1;
+68         1/1                      h_cs_n_r1 &lt;= h_cs_n;
+69         1/1                      h_cs_n_r2 &lt;= h_cs_n_r1;
+70         1/1                      h_mosi_r1 &lt;= h_mosi;
+71         1/1                      h_mosi_r2 &lt;= h_mosi_r1;
+72                              end
+73                          end
+74                          
+75                          // Fixed edge detection - detect between r1 and r2, not r2 and r3!
+76                          wire sclk_rising_edge = h_clk_r1 &amp; ~h_clk_r2;
+77                          wire cs_falling_edge = ~h_cs_n_r1 &amp; h_cs_n_r2;
+78                          wire cs_rising_edge = h_cs_n_r1 &amp; ~h_cs_n_r2;
+79                          
+80                          // State machine
+81                          always @(posedge clk) begin
+82         1/1                  if (rst) begin
+83         1/1                      state &lt;= IDLE_STATE;
+84         1/1                      debug_state &lt;= IDLE_STATE;
+85                              end else begin
+86         1/1                      state &lt;= next_state;
+87         1/1                      debug_state &lt;= next_state;
+88                              end
+89                          end
+90                          
+91                          // Next state logic
+92                          always @(*) begin
+93         1/1                  next_state = state;
+94         1/1                  case (state)
+95                                  IDLE_STATE: begin
+96         1/1                          if (cs_falling_edge)
+97         1/1                              next_state = CMD_STATE;
+                        MISSING_ELSE
+98                                  end
+99                                  
+100                                 CMD_STATE: begin
+101        1/1                          if (cs_rising_edge)
+102        1/1                              next_state = IDLE_STATE;
+103        1/1                          else if (sclk_rising_edge &amp;&amp; bit_counter == 5'd7)
+104        <font color = "red">0/1     ==>                      next_state = ADDR_STATE;</font>
+                        MISSING_ELSE
+105                                 end
+106                                 
+107                                 ADDR_STATE: begin
+108        <font color = "red">0/1     ==>                  if (cs_rising_edge)</font>
+109        <font color = "red">0/1     ==>                      next_state = IDLE_STATE;</font>
+110        <font color = "red">0/1     ==>                  else if (sclk_rising_edge &amp;&amp; bit_counter == 5'd7 &amp;&amp; addr_byte_count == 8'd2) begin</font>
+111        <font color = "red">0/1     ==>                      if (debug_instruction == CMD_FAST_READ)</font>
+112        <font color = "red">0/1     ==>                          next_state = DUMMY_STATE;</font>
+113                                         else
+114        <font color = "red">0/1     ==>                          next_state = DATA_STATE;</font>
+115                                     end
+                   <font color = "red">==>  MISSING_ELSE</font>
+116                                 end
+117                                 
+118                                 DUMMY_STATE: begin
+119        <font color = "red">0/1     ==>                  if (cs_rising_edge)</font>
+120        <font color = "red">0/1     ==>                      next_state = IDLE_STATE;</font>
+121        <font color = "red">0/1     ==>                  else if (sclk_rising_edge &amp;&amp; bit_counter == 5'd7)</font>
+122        <font color = "red">0/1     ==>                      next_state = DATA_STATE;</font>
+                   <font color = "red">==>  MISSING_ELSE</font>
+123                                 end
+124                                 
+125                                 DATA_STATE: begin
+126        <font color = "red">0/1     ==>                  if (cs_rising_edge)</font>
+127        <font color = "red">0/1     ==>                      next_state = IDLE_STATE;</font>
+                   <font color = "red">==>  MISSING_ELSE</font>
+128                                 end
+129                                 
+130        1/1                      default: next_state = IDLE_STATE;
+131                             endcase
+132                         end
+133                         
+134                         // Main decoder logic
+135                         always @(posedge clk) begin
+136        1/1                  if (rst) begin
+137        1/1                      bit_counter &lt;= 5'd0;
+138        1/1                      shift_reg &lt;= 8'd0;
+139        1/1                      addr_byte_count &lt;= 8'd0;
+140        1/1                      debug_instruction &lt;= 8'd0;
+141        1/1                      debug_address &lt;= 24'd0;
+142        1/1                      is_read_cmd &lt;= 1'b0;
+143        1/1                      flash_select &lt;= 1'b0;  // Default to main flash
+144                             end else begin
+145                                 // Reset on CS rising edge
+146        1/1                      if (cs_rising_edge) begin
+147        1/1                          bit_counter &lt;= 5'd0;
+148        1/1                          shift_reg &lt;= 8'd0;
+149        1/1                          addr_byte_count &lt;= 8'd0;
+150        1/1                          is_read_cmd &lt;= 1'b0;
+151                                     // Keep flash_select stable until next transaction
+152        1/1                      end else if (sclk_rising_edge &amp;&amp; ~h_cs_n_r1) begin
+153                                     // Shift in data on rising edge when CS is active
+154        1/1                          shift_reg &lt;= {shift_reg[6:0], h_mosi_r1};
+155        1/1                          bit_counter &lt;= bit_counter + 1;
+156                                     
+157                                     // Process complete bytes
+158        1/1                          if (bit_counter == 5'd7) begin
+159        <font color = "red">0/1     ==>                      case (state)</font>
+160                                             CMD_STATE: begin
+161        <font color = "red">0/1     ==>                              debug_instruction &lt;= {shift_reg[6:0], h_mosi_r1};</font>
+162                                                 // Check if read command
+163        <font color = "red">0/1     ==>                              case ({shift_reg[6:0], h_mosi_r1})</font>
+164        <font color = "red">0/1     ==>                                  CMD_READ_STD, CMD_FAST_READ: is_read_cmd &lt;= 1'b1;</font>
+165        <font color = "red">0/1     ==>                                  default: is_read_cmd &lt;= 1'b0;</font>
+166                                                 endcase
+167                                                 // Set default flash select for non-read commands
+168        <font color = "red">0/1     ==>                              if ({shift_reg[6:0], h_mosi_r1} != CMD_READ_STD &amp;&amp; </font>
+169                                                     {shift_reg[6:0], h_mosi_r1} != CMD_FAST_READ) begin
+170        <font color = "red">0/1     ==>                                  flash_select &lt;= default_flash_select;</font>
+171                                                 end
+                   <font color = "red">==>  MISSING_ELSE</font>
+172                                             end
+173                                             
+174                                             ADDR_STATE: begin
+175        <font color = "red">0/1     ==>                              case (addr_byte_count)</font>
+176        <font color = "red">0/1     ==>                                  8'd0: debug_address[23:16] &lt;= {shift_reg[6:0], h_mosi_r1};</font>
+177        <font color = "red">0/1     ==>                                  8'd1: debug_address[15:8]  &lt;= {shift_reg[6:0], h_mosi_r1};</font>
+178                                                     8'd2: begin
+179        <font color = "red">0/1     ==>                                      debug_address[7:0] &lt;= {shift_reg[6:0], h_mosi_r1};</font>
+180                                                         
+181                                                         // Address complete - do range check NOW for read commands
+182        <font color = "red">0/1     ==>                                      if (is_read_cmd) begin</font>
+183                                                             reg [23:0] full_address;
+184        <font color = "red">0/1     ==>                                          full_address = {debug_address[23:8], shift_reg[6:0], h_mosi_r1};</font>
+185                                                             
+186                                                             // Range check with priority
+187        <font color = "red">0/1     ==>                                          if (range0_enable &amp;&amp; </font>
+188                                                                 full_address &gt;= addr0_start &amp;&amp; 
+189                                                                 full_address &lt;= addr0_end) begin
+190        <font color = "red">0/1     ==>                                              flash_select &lt;= range0_flash_select;</font>
+191        <font color = "red">0/1     ==>                                          end else if (range1_enable &amp;&amp; </font>
+192                                                                          full_address &gt;= addr1_start &amp;&amp; 
+193                                                                          full_address &lt;= addr1_end) begin
+194        <font color = "red">0/1     ==>                                              flash_select &lt;= range1_flash_select;</font>
+195                                                             end else begin
+196        <font color = "red">0/1     ==>                                              flash_select &lt;= default_flash_select;</font>
+197                                                             end
+198                                                         end
+                   <font color = "red">==>  MISSING_ELSE</font>
+199                                                     end
+200        <font color = "red">0/1     ==>                                  default: ;</font>
+201                                                 endcase
+202        <font color = "red">0/1     ==>                              addr_byte_count &lt;= addr_byte_count + 1;</font>
+203                                             end
+204                                             
+205        <font color = "red">0/1     ==>                          default: ;</font>
+206                                         endcase
+207        <font color = "red">0/1     ==>                      bit_counter &lt;= 5'd0;</font>
+208                                     end
+                        MISSING_ELSE
+209                                 end
+                        MISSING_ELSE
+210                                 
+211                                 // When idle, track default flash select for mode changes
+212        1/1                      if (h_cs_n_r1) begin
+213        1/1                          flash_select &lt;= default_flash_select;
+214                                 end
+                        MISSING_ELSE
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod4.html" >instruction_decoder</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s2"><td class="lf">Conditions</td><td>49</td><td>14</td><td>28.57</td></tr>
+<tr class="s2"><td class="lf">Logical</td><td>49</td><td>14</td><td>28.57</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       76
+ EXPRESSION (h_clk_r1 &amp; ((~h_clk_r2)))
+             ----1---   ------2------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       77
+ EXPRESSION (((~h_cs_n_r1)) &amp; h_cs_n_r2)
+             -------1------   ----2----
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       78
+ EXPRESSION (h_cs_n_r1 &amp; ((~h_cs_n_r2)))
+             ----1----   -------2------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       103
+ EXPRESSION (sclk_rising_edge &amp;&amp; (bit_counter == 5'd7))
+             --------1-------    ----------2----------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       103
+ SUB-EXPRESSION (bit_counter == 5'd7)
+                ----------1----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       110
+ EXPRESSION (sclk_rising_edge &amp;&amp; (bit_counter == 5'd7) &amp;&amp; (addr_byte_count == 8'd2))
+             --------1-------    ----------2----------    ------------3------------
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       110
+ SUB-EXPRESSION (bit_counter == 5'd7)
+                ----------1----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       110
+ SUB-EXPRESSION (addr_byte_count == 8'd2)
+                ------------1------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       111
+ EXPRESSION (debug_instruction == CMD_FAST_READ)
+            ------------------1-----------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       121
+ EXPRESSION (sclk_rising_edge &amp;&amp; (bit_counter == 5'd7))
+             --------1-------    ----------2----------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       121
+ SUB-EXPRESSION (bit_counter == 5'd7)
+                ----------1----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       152
+ EXPRESSION (sclk_rising_edge &amp;&amp; ((~h_cs_n_r1)))
+             --------1-------    -------2------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       158
+ EXPRESSION (bit_counter == 5'd7)
+            ----------1----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       168
+ EXPRESSION (({shift_reg[6:0], h_mosi_r1} != CMD_READ_STD) &amp;&amp; ({shift_reg[6:0], h_mosi_r1} != CMD_FAST_READ))
+             ----------------------1----------------------    -----------------------2----------------------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       168
+ SUB-EXPRESSION ({shift_reg[6:0], h_mosi_r1} != CMD_READ_STD)
+                ----------------------1----------------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       168
+ SUB-EXPRESSION ({shift_reg[6:0], h_mosi_r1} != CMD_FAST_READ)
+                -----------------------1----------------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       187
+ EXPRESSION (range0_enable &amp;&amp; (full_address &gt;= addr0_start) &amp;&amp; (full_address &lt;= addr0_end))
+             ------1------    --------------2--------------    -------------3-------------
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       191
+ EXPRESSION (range1_enable &amp;&amp; (full_address &gt;= addr1_start) &amp;&amp; (full_address &lt;= addr1_end))
+             ------1------    --------------2--------------    -------------3-------------
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod4.html" >instruction_decoder</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s5">
+<td>Totals</td>
+<td class="rt">33</td>
+<td class="rt">19</td>
+<td class="rt">57.58 </td>
+</tr><tr class="s5">
+<td>Total Bits</td>
+<td class="rt">358</td>
+<td class="rt">182</td>
+<td class="rt">50.84 </td>
+</tr><tr class="s3">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">179</td>
+<td class="rt">65</td>
+<td class="rt">36.31 </td>
+</tr><tr class="s6">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">179</td>
+<td class="rt">117</td>
+<td class="rt">65.36 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s5">
+<td>Ports</td>
+<td class="rt">18</td>
+<td class="rt">10</td>
+<td class="rt">55.56 </td>
+</tr><tr class="s5">
+<td>Port Bits</td>
+<td class="rt">284</td>
+<td class="rt">156</td>
+<td class="rt">54.93 </td>
+</tr><tr class="s3">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">142</td>
+<td class="rt">52</td>
+<td class="rt">36.62 </td>
+</tr><tr class="s7">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">142</td>
+<td class="rt">104</td>
+<td class="rt">73.24 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s6">
+<td>Signals</td>
+<td class="rt">15</td>
+<td class="rt">9</td>
+<td class="rt">60.00 </td>
+</tr><tr class="s3">
+<td>Signal Bits</td>
+<td class="rt">74</td>
+<td class="rt">26</td>
+<td class="rt">35.14 </td>
+</tr><tr class="s3">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">37</td>
+<td class="rt">13</td>
+<td class="rt">35.14 </td>
+</tr><tr class="s3">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">37</td>
+<td class="rt">13</td>
+<td class="rt">35.14 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>rst</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>h_cs_n</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>h_clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>h_mosi</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[1:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[3:2]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[5:4]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[9:6]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[10]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[13:11]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[14]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[15]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[16]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[17]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[18]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[19]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[20]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[21]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[22]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_start[23]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[8]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[11:9]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[12]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[16:13]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[17]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[20:18]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[21]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr0_end[23:22]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>range0_enable</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>range0_flash_select</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[3:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[5:4]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[8:6]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[9]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[12:10]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[13]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[15:14]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[16]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[19:17]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[20]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_start[23:21]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[2]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[7:3]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[8]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[9]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[10]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[11]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[12]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[13]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[14]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[17:15]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[18]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[21:19]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[22]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>addr1_end[23]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>range1_enable</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>range1_flash_select</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>default_flash_select</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>flash_select</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>debug_instruction[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>debug_address[23:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>debug_state[0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>debug_state[2:1]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>state[0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>state[2:1]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>next_state[0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_state[2:1]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>bit_counter[1:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>bit_counter[4:2]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>shift_reg[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>addr_byte_count[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>is_read_cmd</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>h_clk_r1</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>h_clk_r2</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>h_cs_n_r1</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>h_cs_n_r2</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>h_mosi_r1</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>h_mosi_r2</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>sclk_rising_edge</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>cs_falling_edge</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>cs_rising_edge</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+<hr>
+<a name="FSM"></a>
+FSM Coverage for Module : <a href="mod4.html" >instruction_decoder</a><br clear=all>
+<table align=left class="noborder">
+<caption><b>Summary for FSM :: state</b></caption>
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th><th nowrap width=200></th></tr><tr class="wht">
+<td>States</td>
+<td class="rt">5</td>
+<td class="rt">2</td>
+<td class="rt">40.00 </td>
+<td>(Not included in score)</td>
+</tr><tr class="s2">
+<td>Transitions</td>
+<td class="rt">9</td>
+<td class="rt">2</td>
+<td class="rt">22.22 </td>
+<td></td>
+</tr><tr class="wht">
+<td>Sequences</td>
+<td class="rt">0</td>
+<td class="rt">0</td>
+<td></td>
+<td></td>
+</tr></table><br clear=all>
+<b>State, Transition and Sequence Details for FSM :: state</b><hr>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">states</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uRed">
+<td nowrap>ADDR_STATE</td>
+<td class="rt">104</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD_STATE</td>
+<td class="rt">97</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td nowrap>DATA_STATE</td>
+<td class="rt">114</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uRed">
+<td nowrap>DUMMY_STATE</td>
+<td class="rt">112</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE_STATE</td>
+<td class="rt">83</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">transitions</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uRed">
+<td nowrap>ADDR_STATE->DATA_STATE</td>
+<td class="rt">114</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uRed">
+<td nowrap>ADDR_STATE->DUMMY_STATE</td>
+<td class="rt">112</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uRed">
+<td nowrap>ADDR_STATE->IDLE_STATE</td>
+<td class="rt">83</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uRed">
+<td nowrap>CMD_STATE->ADDR_STATE</td>
+<td class="rt">104</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD_STATE->IDLE_STATE</td>
+<td class="rt">83</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td nowrap>DATA_STATE->IDLE_STATE</td>
+<td class="rt">83</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uRed">
+<td nowrap>DUMMY_STATE->DATA_STATE</td>
+<td class="rt">122</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uRed">
+<td nowrap>DUMMY_STATE->IDLE_STATE</td>
+<td class="rt">83</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE_STATE->CMD_STATE</td>
+<td class="rt">97</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod4.html" >instruction_decoder</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s4">
+<td>Branches</td>
+<td></td>
+<td class="rt">37</td>
+<td class="rt">15</td>
+<td class="rt">40.54 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">58</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">82</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s3">
+<td>CASE</td>
+<td class="rt">94</td>
+<td class="rt">15</td>
+<td class="rt">5</td>
+<td class="rt">33.33 </td>
+</tr><tr class="s3">
+<td>IF</td>
+<td class="rt">136</td>
+<td class="rt">18</td>
+<td class="rt">6</td>
+<td class="rt">33.33 </td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+58                 if (rst) begin
+                   <font color = "green">-1-</font>  
+59                     h_clk_r1 <= 1'b0;
+           <font color = "green">            ==></font>
+60                     h_clk_r2 <= 1'b0;
+61                     h_cs_n_r1 <= 1'b1;
+62                     h_cs_n_r2 <= 1'b1;
+63                     h_mosi_r1 <= 1'b0;
+64                     h_mosi_r2 <= 1'b0;
+65                 end else begin
+66                     h_clk_r1 <= h_clk;
+           <font color = "green">            ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+82                 if (rst) begin
+                   <font color = "green">-1-</font>  
+83                     state <= IDLE_STATE;
+           <font color = "green">            ==></font>
+84                     debug_state <= IDLE_STATE;
+85                 end else begin
+86                     state <= next_state;
+           <font color = "green">            ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+94                 case (state)
+                   <font color = "red">-1-</font>  
+95                     IDLE_STATE: begin
+96                         if (cs_falling_edge)
+                           <font color = "green">-2-</font>  
+97                             next_state = CMD_STATE;
+           <font color = "green">                    ==></font>
+                               MISSING_ELSE
+           <font color = "green">                    ==></font>
+98                     end
+99                     
+100                    CMD_STATE: begin
+101                        if (cs_rising_edge)
+                           <font color = "green">-3-</font>  
+102                            next_state = IDLE_STATE;
+           <font color = "green">                    ==></font>
+103                        else if (sclk_rising_edge && bit_counter == 5'd7)
+                                <font color = "red">-4-</font>  
+104                            next_state = ADDR_STATE;
+           <font color = "red">                    ==></font>
+                               MISSING_ELSE
+           <font color = "green">                    ==></font>
+105                    end
+106                    
+107                    ADDR_STATE: begin
+108                        if (cs_rising_edge)
+                           <font color = "red">-5-</font>  
+109                            next_state = IDLE_STATE;
+           <font color = "red">                    ==></font>
+110                        else if (sclk_rising_edge && bit_counter == 5'd7 && addr_byte_count == 8'd2) begin
+                                <font color = "red">-6-</font>  
+111                            if (debug_instruction == CMD_FAST_READ)
+                               <font color = "red">-7-</font>  
+112                                next_state = DUMMY_STATE;
+           <font color = "red">                        ==></font>
+113                            else
+114                                next_state = DATA_STATE;
+           <font color = "red">                        ==></font>
+115                        end
+                           MISSING_ELSE
+           <font color = "red">                ==></font>
+116                    end
+117                    
+118                    DUMMY_STATE: begin
+119                        if (cs_rising_edge)
+                           <font color = "red">-8-</font>  
+120                            next_state = IDLE_STATE;
+           <font color = "red">                    ==></font>
+121                        else if (sclk_rising_edge && bit_counter == 5'd7)
+                                <font color = "red">-9-</font>  
+122                            next_state = DATA_STATE;
+           <font color = "red">                    ==></font>
+                               MISSING_ELSE
+           <font color = "red">                    ==></font>
+123                    end
+124                    
+125                    DATA_STATE: begin
+126                        if (cs_rising_edge)
+                           <font color = "red">-10-</font>  
+127                            next_state = IDLE_STATE;
+           <font color = "red">                    ==></font>
+                               MISSING_ELSE
+           <font color = "red">                    ==></font>
+128                    end
+129                    
+130                    default: next_state = IDLE_STATE;
+           <font color = "green">            ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>-10-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>IDLE_STATE </td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>IDLE_STATE </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>CMD_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>CMD_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>CMD_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>DUMMY_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>DUMMY_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>DUMMY_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>DATA_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>DATA_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+136                if (rst) begin
+                   <font color = "green">-1-</font>  
+137                    bit_counter <= 5'd0;
+           <font color = "green">            ==></font>
+138                    shift_reg <= 8'd0;
+139                    addr_byte_count <= 8'd0;
+140                    debug_instruction <= 8'd0;
+141                    debug_address <= 24'd0;
+142                    is_read_cmd <= 1'b0;
+143                    flash_select <= 1'b0;  // Default to main flash
+144                end else begin
+145                    // Reset on CS rising edge
+146                    if (cs_rising_edge) begin
+                       <font color = "green">-2-</font>  
+147                        bit_counter <= 5'd0;
+           <font color = "green">                ==></font>
+148                        shift_reg <= 8'd0;
+149                        addr_byte_count <= 8'd0;
+150                        is_read_cmd <= 1'b0;
+151                        // Keep flash_select stable until next transaction
+152                    end else if (sclk_rising_edge && ~h_cs_n_r1) begin
+                                <font color = "green">-3-</font>  
+153                        // Shift in data on rising edge when CS is active
+154                        shift_reg <= {shift_reg[6:0], h_mosi_r1};
+155                        bit_counter <= bit_counter + 1;
+156                        
+157                        // Process complete bytes
+158                        if (bit_counter == 5'd7) begin
+                           <font color = "red">-4-</font>  
+159                            case (state)
+                               <font color = "red">-5-</font>  
+160                                CMD_STATE: begin
+161                                    debug_instruction <= {shift_reg[6:0], h_mosi_r1};
+162                                    // Check if read command
+163                                    case ({shift_reg[6:0], h_mosi_r1})
+                                       <font color = "red">-6-</font>  
+164                                        CMD_READ_STD, CMD_FAST_READ: is_read_cmd <= 1'b1;
+           <font color = "red">                                ==></font>
+165                                        default: is_read_cmd <= 1'b0;
+           <font color = "red">                                ==></font>
+166                                    endcase
+167                                    // Set default flash select for non-read commands
+168                                    if ({shift_reg[6:0], h_mosi_r1} != CMD_READ_STD && 
+                                       <font color = "red">-7-</font>       
+169                                        {shift_reg[6:0], h_mosi_r1} != CMD_FAST_READ) begin
+170                                        flash_select <= default_flash_select;
+           <font color = "red">                                ==></font>
+171                                    end
+                                       MISSING_ELSE
+           <font color = "red">                            ==></font>
+172                                end
+173                                
+174                                ADDR_STATE: begin
+175                                    case (addr_byte_count)
+                                       <font color = "red">-8-</font>  
+176                                        8'd0: debug_address[23:16] <= {shift_reg[6:0], h_mosi_r1};
+           <font color = "red">                                ==></font>
+177                                        8'd1: debug_address[15:8]  <= {shift_reg[6:0], h_mosi_r1};
+           <font color = "red">                                ==></font>
+178                                        8'd2: begin
+179                                            debug_address[7:0] <= {shift_reg[6:0], h_mosi_r1};
+180                                            
+181                                            // Address complete - do range check NOW for read commands
+182                                            if (is_read_cmd) begin
+                                               <font color = "red">-9-</font>  
+183                                                reg [23:0] full_address;
+184                                                full_address = {debug_address[23:8], shift_reg[6:0], h_mosi_r1};
+185                                                
+186                                                // Range check with priority
+187                                                if (range0_enable && 
+                                                   <font color = "red">-10-</font>  
+188                                                    full_address >= addr0_start && 
+189                                                    full_address <= addr0_end) begin
+190                                                    flash_select <= range0_flash_select;
+           <font color = "red">                                            ==></font>
+191                                                end else if (range1_enable && 
+                                                            <font color = "red">-11-</font>  
+192                                                             full_address >= addr1_start && 
+193                                                             full_address <= addr1_end) begin
+194                                                    flash_select <= range1_flash_select;
+           <font color = "red">                                            ==></font>
+195                                                end else begin
+196                                                    flash_select <= default_flash_select;
+           <font color = "red">                                            ==></font>
+197                                                end
+198                                            end
+                                               MISSING_ELSE
+           <font color = "red">                                    ==></font>
+199                                        end
+200                                        default: ;
+           <font color = "red">                                ==></font>
+201                                    endcase
+202                                    addr_byte_count <= addr_byte_count + 1;
+203                                end
+204                                
+205                                default: ;
+           <font color = "red">                        ==></font>
+206                            endcase
+207                            bit_counter <= 5'd0;
+208                        end
+                           MISSING_ELSE
+           <font color = "green">                ==></font>
+209                    end
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+210                    
+211                    // When idle, track default flash select for mode changes
+212                    if (h_cs_n_r1) begin
+                       <font color = "green">-12-</font>  
+213                        flash_select <= default_flash_select;
+           <font color = "green">                ==></font>
+214                    end
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>-10-</th><th nowrap width=80>-11-</th><th nowrap width=80>-12-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>CMD_STATE </td>
+<td align=center>CMD_READ_STD CMD_FAST_READ </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>CMD_STATE </td>
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>CMD_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>CMD_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>8'b0 </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>8'b1 </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>8'd2 </td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>8'd2 </td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>8'd2 </td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>8'd2 </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>ADDR_STATE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_6">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#FSM">FSM</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_instruction_decoder">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#FSM">FSM</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

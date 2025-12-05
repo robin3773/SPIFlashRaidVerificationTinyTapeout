@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: testbench</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_testbench'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_testbench')">testbench</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s7 cl rt"> 73.80</td>
+<td class="s9 cl rt"><a href="mod11.html#Line" > 95.24</a></td>
+<td class="wht cl rt"></td>
+<td class="s5 cl rt"><a href="mod11.html#Toggle" > 51.16</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod11.html#Branch" > 75.00</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/runner/testbench.sv')">/home/runner/testbench.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod11.html#inst_tag_14"  onclick="showContent('inst_tag_14')">testbench</a></td>
+<td class="s7 cl rt"> 73.80</td>
+<td class="s9 cl rt"><a href="mod11.html#Line" > 95.24</a></td>
+<td class="wht cl rt"></td>
+<td class="s5 cl rt"><a href="mod11.html#Toggle" > 51.16</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod11.html#Branch" > 75.00</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_testbench'>
+<hr>
+<a name="inst_tag_14"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_14" >testbench</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s7 cl rt"> 73.80</td>
+<td class="s9 cl rt"><a href="mod11.html#Line" > 95.24</a></td>
+<td class="wht cl rt"></td>
+<td class="s5 cl rt"><a href="mod11.html#Toggle" > 51.16</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod11.html#Branch" > 75.00</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s7 cl rt"> 76.42</td>
+<td class="s8 cl rt"> 88.70</td>
+<td class="s7 cl rt"> 78.77</td>
+<td class="s6 cl rt"> 68.97</td>
+<td class="s6 cl rt"> 65.38</td>
+<td class="s8 cl rt"> 80.25</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<span class=inst>none</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod9.html#inst_tag_12" id="tag_urg_inst_12">dut</a></td>
+<td class="s6 cl rt"> 68.44</td>
+<td class="s8 cl rt"> 82.95</td>
+<td class="s7 cl rt"> 72.09</td>
+<td class="s6 cl rt"> 65.92</td>
+<td class="s4 cl rt"> 43.75</td>
+<td class="s7 cl rt"> 77.50</td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod5.html#inst_tag_7" id="tag_urg_inst_7">main_flash_if</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod0.html#inst_tag_1" id="tag_urg_inst_1">main_host_if</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod0.html#inst_tag_0" id="tag_urg_inst_0">mgmt_if</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod5.html#inst_tag_8" id="tag_urg_inst_8">sec_flash_if</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod0.html#inst_tag_2" id="tag_urg_inst_2">sec_host_if</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod12.html#inst_tag_15" id="tag_urg_inst_15">u_flash_main</a></td>
+<td class="s9 cl rt"> 96.08</td>
+<td class="s9 cl rt"> 98.28</td>
+<td class="s9 cl rt"> 96.00</td>
+<td class="s9 cl rt"> 96.67</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s8 cl rt"> 89.47</td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod12.html#inst_tag_16" id="tag_urg_inst_16">u_flash_sec</a></td>
+<td class="s9 cl rt"> 95.08</td>
+<td class="s9 cl rt"> 98.28</td>
+<td class="s9 cl rt"> 96.00</td>
+<td class="s9 cl rt"> 91.67</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s8 cl rt"> 89.47</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_testbench'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod11.html" >testbench</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">TOTAL</td><td></td><td>21</td><td>20</td><td>95.24</td></tr>
+<tr class="s10"><td class="lf">INITIAL</td><td>7</td><td>2</td><td>2</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">INITIAL</td><td>16</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="s9"><td class="lf">INITIAL</td><td>90</td><td>15</td><td>14</td><td>93.33</td></tr>
+</table>
+<pre class="code"><br clear=all>
+6                         initial begin
+7          1/1              $dumpfile(&quot;raid_tb.vcd&quot;);
+8          1/1              $dumpvars(0, testbench);
+9                         end
+10                      
+11                        // Clocks and reset
+12                        logic clk;
+13                        logic rst_n;
+14                        logic ena;
+15                        initial begin
+16         1/1              clk = 0;
+17         3/3              forever #10 clk = ~clk; // 50 MHz
+18                        end
+19                      
+20                        // SPI interfaces
+21                        spi_master_if mgmt_if();
+22                        spi_master_if main_host_if();
+23                        spi_master_if sec_host_if();
+24                        spi_slave_if  main_flash_if();
+25                        spi_slave_if  sec_flash_if();
+26                      
+27                        // DUT pin bundles
+28                        wire [7:0] ui_in;
+29                        wire [7:0] uo_out;
+30                        wire [7:0] uio_in;
+31                        wire [7:0] uio_out;
+32                        wire [7:0] uio_oe;
+33                      
+34                        // Connect UI inputs (hosts + mgmt)
+35                        assign ui_in[0] = main_host_if.sclk;
+36                        assign ui_in[1] = main_host_if.cs_n;
+37                        assign ui_in[2] = main_host_if.mosi;
+38                        assign ui_in[3] = sec_host_if.sclk;
+39                        assign ui_in[4] = sec_host_if.cs_n;
+40                        assign ui_in[5] = sec_host_if.mosi;
+41                        assign ui_in[6] = mgmt_if.sclk;
+42                        assign ui_in[7] = mgmt_if.cs_n;
+43                      
+44                        // Connect bidirectional IO inputs (into DUT)
+45                        assign uio_in[0] = mgmt_if.mosi;
+46                        assign uio_in[1] = main_flash_if.miso;
+47                        assign uio_in[2] = sec_flash_if.miso;
+48                        assign uio_in[7:3] = '0;
+49                      
+50                        // DUT instance (top module)
+51                        tt_um_flash_raid_controller dut (
+52                          .ui_in (ui_in),
+53                          .uo_out(uo_out),
+54                          .uio_in(uio_in),
+55                          .uio_out(uio_out),
+56                          .uio_oe(uio_oe),
+57                          .ena   (ena),
+58                          .clk   (clk),
+59                          .rst_n (rst_n)
+60                        );
+61                      
+62                        // ena is tied high in silicon; drive high here
+63                        assign ena = 1'b1;
+64                      
+65                        // Hook outputs back to interfaces
+66                        assign main_host_if.miso = uo_out[0];
+67                        assign sec_host_if.miso  = uo_out[1];
+68                        assign mgmt_if.miso      = uo_out[2];
+69                      
+70                        assign main_flash_if.sclk = uo_out[3];
+71                        assign main_flash_if.cs_n = uo_out[4];
+72                        assign main_flash_if.mosi = uo_out[5];
+73                      
+74                        assign sec_flash_if.sclk = uo_out[6];
+75                        assign sec_flash_if.cs_n = uo_out[7];
+76                      
+77                        // Secondary flash MOSI comes from bidir pin uio_out[3]
+78                        assign sec_flash_if.mosi = uio_out[3];
+79                      
+80                        // Flash observation mailbox shared with scoreboard
+81                        mailbox #(flash_obs_item) flash_obs_mbx;
+82                      
+83                        // Flash stubs (main = 0, secondary = 1)
+84                        flash_stub #(.FLASH_ID(0)) u_flash_main (.spi(main_flash_if), .obs_mbx(flash_obs_mbx));
+85                        flash_stub #(.FLASH_ID(1)) u_flash_sec  (.spi(sec_flash_if),  .obs_mbx(flash_obs_mbx));
+86                      
+87                        initial begin
+88                          string testname;
+89                          raid_base_test test;
+90         <font color = "red">1/2     ==>      if (!$value$plusargs(&quot;TEST=%s&quot;, testname)) testname = &quot;spi_reset_test&quot;;</font>
+                        MISSING_ELSE
+91         1/1              test = create_test_by_name(testname);
+92         1/1              flash_obs_mbx = test.env.flash_obs_mbx;
+93         1/1              test.set_vifs(mgmt_if.master_mp, main_host_if.master_mp, sec_host_if.master_mp);
+94                          // Drive reset high initially
+95         1/1              rst_n = 1'b1;
+96         2/2              #1;
+97         1/1              test.run(rst_n);
+98         2/2              #1000;
+99         1/1              if (test.total_errors() == 0)
+100        1/1                $display(&quot;==== TEST %s PASSED ====&quot;, testname);
+101                         else
+102        1/1                $display(&quot;==== TEST %s FAILED: %0d errors (SB=%0d, TEST=%0d) ====&quot;,
+103                                    testname, test.total_errors(), test.env.sb.error_count, test.test_errors);
+104        1/1              $finish;
+</pre>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod11.html" >testbench</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s5">
+<td>Totals</td>
+<td class="rt">8</td>
+<td class="rt">4</td>
+<td class="rt">50.00 </td>
+</tr><tr class="s5">
+<td>Total Bits</td>
+<td class="rt">86</td>
+<td class="rt">44</td>
+<td class="rt">51.16 </td>
+</tr><tr class="s5">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">43</td>
+<td class="rt">22</td>
+<td class="rt">51.16 </td>
+</tr><tr class="s5">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">43</td>
+<td class="rt">22</td>
+<td class="rt">51.16 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s5">
+<td>Signals</td>
+<td class="rt">8</td>
+<td class="rt">4</td>
+<td class="rt">50.00 </td>
+</tr><tr class="s5">
+<td>Signal Bits</td>
+<td class="rt">86</td>
+<td class="rt">44</td>
+<td class="rt">51.16 </td>
+</tr><tr class="s5">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">43</td>
+<td class="rt">22</td>
+<td class="rt">51.16 </td>
+</tr><tr class="s5">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">43</td>
+<td class="rt">22</td>
+<td class="rt">51.16 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rst_n</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>ena</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>ui_in[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>uo_out[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>uio_in[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>uio_in[7:3]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>uio_out[2:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>uio_out[3]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>uio_out[7:4]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>uio_oe[7:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr></table><br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod11.html" >testbench</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s7">
+<td>Branches</td>
+<td></td>
+<td class="rt">4</td>
+<td class="rt">3</td>
+<td class="rt">75.00 </td>
+</tr><tr class="s5">
+<td>IF</td>
+<td class="rt">90</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">99</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+90             if (!$value$plusargs("TEST=%s", testname)) testname = "spi_reset_test";
+               <font color = "red">-1-</font>  
+           <font color = "red">    ==></font>
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uRed">
+<td align=center>1</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+99             if (test.total_errors() == 0)
+               <font color = "green">-1-</font>  
+100              $display("==== TEST %s PASSED ====", testname);
+           <font color = "green">      ==></font>
+101            else
+102              $display("==== TEST %s FAILED: %0d errors (SB=%0d, TEST=%0d) ====",
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_14">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_testbench">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

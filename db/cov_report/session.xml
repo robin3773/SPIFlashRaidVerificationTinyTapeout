@@ -1,0 +1,40 @@
+<session version="1.1" release="U-2023.03-SP2" timestp="2025-12-05 08:31:40 GMT">
+  <info>
+    <attr name="datetime" value="Fri Dec  5 03:31:42 2025
+"/>
+    <attr name="command" value="urg -dir simv.vdb cov_runs/spi_reset_test_iter1_seed1234.vdb cov_runs/spi_reset_test_iter1_seed5678.vdb cov_runs/spi_reg_rw_test_iter1_seed1234.vdb cov_runs/spi_reg_rw_test_iter1_seed5678.vdb cov_runs/spi_main_mode_test_iter1_seed1234.vdb cov_runs/spi_main_mode_test_iter1_seed5678.vdb cov_runs/spi_secondary_mode_test_iter1_seed1234.vdb cov_runs/spi_secondary_mode_test_iter1_seed5678.vdb cov_runs/spi_share_default_test_iter1_seed1234.vdb cov_runs/spi_share_default_test_iter1_seed5678.vdb cov_runs/spi_share_range0_main_test_iter1_seed1234.vdb cov_runs/spi_share_range0_main_test_iter1_seed5678.vdb cov_runs/spi_share_range1_secondary_test_iter1_seed1234.vdb cov_runs/spi_share_range1_secondary_test_iter1_seed5678.vdb cov_runs/spi_share_default_select_test_iter1_seed1234.vdb cov_runs/spi_share_default_select_test_iter1_seed5678.vdb cov_runs/spi_share_write_safety_test_iter1_seed1234.vdb cov_runs/spi_share_write_safety_test_iter1_seed5678.vdb cov_runs/spi_host_switch_test_iter1_seed1234.vdb cov_runs/spi_host_switch_test_iter1_seed5678.vdb cov_runs/spi_illegal_opcode_test_iter1_seed1234.vdb cov_runs/spi_illegal_opcode_test_iter1_seed5678.vdb cov_runs/spi_host_contention_test_iter1_seed1234.vdb cov_runs/spi_host_contention_test_iter1_seed5678.vdb cov_runs/spi_bad_range_test_iter1_seed1234.vdb cov_runs/spi_bad_range_test_iter1_seed5678.vdb cov_runs/spi_overlap_range_test_iter1_seed1234.vdb cov_runs/spi_overlap_range_test_iter1_seed5678.vdb cov_runs/spi_addr_low_test_iter1_seed1234.vdb cov_runs/spi_addr_low_test_iter1_seed5678.vdb cov_runs/spi_addr_high_test_iter1_seed1234.vdb cov_runs/spi_addr_high_test_iter1_seed5678.vdb cov_runs/spi_runtime_cfg_test_iter1_seed1234.vdb cov_runs/spi_runtime_cfg_test_iter1_seed5678.vdb cov_runs/spi_random_rw_test_iter1_seed1234.vdb cov_runs/spi_random_rw_test_iter1_seed5678.vdb cov_runs/spi_random_rw_test_iter2_seed1234.vdb cov_runs/spi_random_rw_test_iter2_seed5678.vdb cov_runs/spi_random_host_mode_test_iter1_seed1234.vdb cov_runs/spi_random_host_mode_test_iter1_seed5678.vdb cov_runs/spi_random_host_mode_test_iter2_seed1234.vdb cov_runs/spi_random_host_mode_test_iter2_seed5678.vdb cov_runs/spi_stress_test_iter1_seed1234.vdb cov_runs/spi_stress_test_iter1_seed5678.vdb cov_runs/spi_stress_test_iter2_seed1234.vdb cov_runs/spi_stress_test_iter2_seed5678.vdb -report cov_report"/>
+    <attr name="top_instance" value="testbench"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Branch" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="314/354" />
+    <metric name="Cond" value="141/179" />
+    <metric name="Toggle" value="1585/2298" />
+    <metric name="FSM" value="17/26" />
+    <metric name="Branch" value="130/162" />
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="$unit::raid_cov::cfg_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="$unit::raid_cov::route_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

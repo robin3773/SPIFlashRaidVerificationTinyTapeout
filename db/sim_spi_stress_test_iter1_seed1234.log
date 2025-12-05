@@ -1,0 +1,99 @@
+Command: /home/runner/./simv +TEST=spi_stress_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_stress_test_iter1_seed1234.vdb -l sim_spi_stress_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[3826000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002186 len=5 from=main)
+[3826000][SB] Write payload mismatch idx0 exp=3c got=fa addr=0x002186
+[3826000][SB] Write payload mismatch idx1 exp=13 got=f9 addr=0x002186
+[3826000][SB] Write payload mismatch idx2 exp=fd got=f8 addr=0x002186
+[3826000][SB] Write payload mismatch idx3 exp=b9 got=f7 addr=0x002186
+[3826000][SB] Write payload mismatch idx4 exp=2f got=f6 addr=0x002186
+[4561000][SB] Write payload mismatch idx0 exp=00 got=3c addr=0x007864
+[4561000][SB] Write payload mismatch idx1 exp=d6 got=13 addr=0x007864
+[4561000][SB] Write payload mismatch idx2 exp=e9 got=fd addr=0x007864
+[4561000][SB] Write payload mismatch idx3 exp=7d got=b9 addr=0x007864
+[4561000][SB] Write payload mismatch idx4 exp=60 got=2f addr=0x007864
+[4561000][SB] Write payload mismatch idx5 exp=e2 got=xx addr=0x007864
+[4561000][SB] Write payload mismatch idx6 exp=6e got=xx addr=0x007864
+[5456000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x002930 len=7 from=secondary)
+[5456000][SB] Read data mismatch @0 exp=30 got=00 addr=0x002930
+[5456000][SB] Read data mismatch @1 exp=31 got=d6 addr=0x002930
+[5456000][SB] Read data mismatch @2 exp=32 got=e9 addr=0x002930
+[5456000][SB] Read data mismatch @3 exp=33 got=7d addr=0x002930
+[5456000][SB] Read data mismatch @4 exp=34 got=60 addr=0x002930
+[5456000][SB] Read data mismatch @5 exp=35 got=e2 addr=0x002930
+[5456000][SB] Read data mismatch @6 exp=36 got=6e addr=0x002930
+[6351000][SB] Write payload mismatch idx0 exp=f9 got=00 addr=0x005ae0
+[6766000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000aef len=7 from=secondary)
+[6766000][SB] Write payload mismatch idx0 exp=65 got=00 addr=0x000aef
+[6766000][SB] Write payload mismatch idx1 exp=90 got=d6 addr=0x000aef
+[6766000][SB] Write payload mismatch idx2 exp=f0 got=e9 addr=0x000aef
+[6766000][SB] Write payload mismatch idx3 exp=b9 got=7d addr=0x000aef
+[6766000][SB] Write payload mismatch idx4 exp=f1 got=60 addr=0x000aef
+[6766000][SB] Write payload mismatch idx5 exp=2a got=e2 addr=0x000aef
+[6766000][SB] Write payload mismatch idx6 exp=10 got=6e addr=0x000aef
+[8236000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00f732 len=1 from=secondary)
+[8236000][SB] Write payload mismatch idx0 exp=ef got=fa addr=0x00f732
+[10451000][SB] Read length mismatch exp=2 got=5 @0x00dcf7
+[10451000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x004ac4 len=2 from=secondary)
+[10451000][SB] Write payload mismatch idx0 exp=16 got=84 addr=0x004ac4
+[10451000][SB] Write payload mismatch idx1 exp=1f got=83 addr=0x004ac4
+[12176000][SB] Read length mismatch exp=5 got=1 @0x00007b
+[12176000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00109d len=7 from=secondary)
+[12176000][SB] Read length mismatch exp=7 got=1 @0x00109d
+[14781000][SB] Read length mismatch exp=1 got=8 @0x00517e
+[14781000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x0001ec len=1 from=main)
+[14781000][SB] Write payload mismatch idx0 exp=31 got=24 addr=0x0001ec
+[16346000][SB] Read length mismatch exp=4 got=2 @0x0070f4
+[16346000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005986 len=7 from=secondary)
+[16346000][SB] Read length mismatch exp=7 got=2 @0x005986
+[16841000][SB] Read length mismatch exp=8 got=2 @0x00fbdb
+[16841000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005eb7 len=2 from=secondary)
+[16841000][SB] Read data mismatch @0 exp=b7 got=c8 addr=0x005eb7
+[16841000][SB] Read data mismatch @1 exp=b8 got=3b addr=0x005eb7
+[17416000][SB] Read length mismatch exp=1 got=3 @0x0043ad
+[17416000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00a8e0 len=2 from=main)
+[17416000][SB] Write payload mismatch idx0 exp=fc got=c4 addr=0x00a8e0
+[17416000][SB] Write payload mismatch idx1 exp=1c got=38 addr=0x00a8e0
+[18246000][SB] Write payload mismatch idx0 exp=c8 got=16 addr=0x005c24
+[18246000][SB] Write payload mismatch idx1 exp=3b got=xx addr=0x005c24
+[18246000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x006247 len=3 from=main)
+[18246000][SB] Write payload mismatch idx0 exp=c4 got=e9 addr=0x006247
+[18246000][SB] Write payload mismatch idx1 exp=38 got=xx addr=0x006247
+[18246000][SB] Write payload mismatch idx2 exp=39 got=xx addr=0x006247
+[19396000][SB] Read length mismatch exp=1 got=5 @0x009723
+[19396000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x006216 len=1 from=main)
+[19396000][SB] Read length mismatch exp=1 got=5 @0x006216
+[21841000][SB] Read length mismatch exp=1 got=6 @0x000c62
+[21841000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x0023df len=5 from=main)
+[21841000][SB] Read length mismatch exp=5 got=6 @0x0023df
+[27306000][SB] Read length mismatch exp=5 got=8 @0x0032fd
+[27306000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00b690 len=6 from=secondary)
+[27306000][SB] Write payload mismatch idx0 exp=bf got=ab addr=0x00b690
+[27306000][SB] Write payload mismatch idx1 exp=16 got=f6 addr=0x00b690
+[27306000][SB] Write payload mismatch idx2 exp=06 got=9a addr=0x00b690
+[27306000][SB] Write payload mismatch idx3 exp=e4 got=42 addr=0x00b690
+[27306000][SB] Write payload mismatch idx4 exp=98 got=0a addr=0x00b690
+[27306000][SB] Write payload mismatch idx5 exp=b4 got=92 addr=0x00b690
+[28376000][SB] Read length mismatch exp=6 got=4 @0x00915f
+[28376000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x007607 len=5 from=secondary)
+[28376000][SB] Read length mismatch exp=5 got=4 @0x007607
+[30611000][SB] Read length mismatch exp=7 got=1 @0x00ae46
+[30611000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00ddd6 len=2 from=secondary)
+[30611000][SB] Write payload mismatch idx0 exp=6c got=13 addr=0x00ddd6
+[30611000][SB] Write payload mismatch idx1 exp=db got=xx addr=0x00ddd6
+[31426000][SB] Write payload mismatch idx0 exp=ca got=14 addr=0x000fdd
+[31426000][SB] Write payload mismatch idx1 exp=b5 got=fe addr=0x000fdd
+[31426000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00318e len=8 from=secondary)
+[31426000][SB] Read length mismatch exp=8 got=6 @0x00318e
+==== TEST spi_stress_test FAILED: 84 errors (SB=84, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             34716000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 34716000 ps
+CPU Time:      0.550 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:39 2025

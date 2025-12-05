@@ -1,0 +1,22 @@
+Command: /home/runner/./simv +TEST=spi_secondary_mode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_secondary_mode_test_iter1_seed5678.vdb -l sim_spi_secondary_mode_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1136000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000200 len=4 from=main)
+[1136000][SB] Read data mismatch @0 exp=ff got=00 addr=0x000200
+[1136000][SB] Read data mismatch @1 exp=fe got=01 addr=0x000200
+[1136000][SB] Read data mismatch @2 exp=fd got=02 addr=0x000200
+[1136000][SB] Read data mismatch @3 exp=fc got=03 addr=0x000200
+[1631000][SB] Flash select mismatch: expected 1 got 0 (WRITE cmd=0x02 addr=0x000210 len=2 from=main)
+[2126000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000210 len=2 from=main)
+==== TEST spi_secondary_mode_test FAILED: 7 errors (SB=7, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3131000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3131000 ps
+CPU Time:      0.540 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:20 2025

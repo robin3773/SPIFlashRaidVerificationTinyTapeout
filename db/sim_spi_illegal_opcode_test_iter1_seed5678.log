@@ -1,0 +1,16 @@
+Command: /home/runner/./simv +TEST=spi_illegal_opcode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_illegal_opcode_test_iter1_seed5678.vdb -l sim_spi_illegal_opcode_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[566000][SB] Read length mismatch exp=2 got=0 @0x000010
+==== TEST spi_illegal_opcode_test FAILED: 1 errors (SB=1, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2061000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2061000 ps
+CPU Time:      0.410 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:27 2025

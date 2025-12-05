@@ -1,0 +1,21 @@
+<Command name="schRTLInfo"  delimiter="."  >
+<RTLBlock >
+<RTLInfo   name="state_0"  type="2"  fileName="serial_interface.v"  >
+    <Seg beginLine="97"  endLine="188"  />
+  </RTLInfo>
+ <Instance name="testbench.dut.u_raider.u_serial_interface"  />
+</RTLBlock>
+<RTLBlock >
+<RTLInfo   name="state_1"  type="2"  fileName="instruction_decoder.v"  >
+    <Seg beginLine="83"  endLine="114"  />
+  </RTLInfo>
+ <Instance name="testbench.dut.u_raider.u_instruction_decoder"  />
+</RTLBlock>
+<RTLBlock >
+<RTLInfo   name="state_2"  type="2"  fileName="flash_stub.sv"  >
+    <Seg beginLine="66"  endLine="80"  />
+  </RTLInfo>
+ <Instance name="testbench.u_flash_main"  />
+<Instance name="testbench.u_flash_sec"  />
+</RTLBlock>
+ </Command>

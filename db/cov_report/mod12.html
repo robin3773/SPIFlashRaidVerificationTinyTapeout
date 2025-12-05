@@ -1,0 +1,2551 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: flash_stub</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_flash_stub'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_flash_stub')">flash_stub</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 96.08</td>
+<td class="s9 cl rt"><a href="mod12.html#Line" > 98.28</a></td>
+<td class="s9 cl rt"><a href="mod12.html#Cond" > 96.00</a></td>
+<td class="s9 cl rt"><a href="mod12.html#Toggle" > 96.67</a></td>
+<td class="s10 cl rt"><a href="mod12.html#FSM" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod12.html#Branch" > 89.47</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/runner/flash_stub.sv')">/home/runner/flash_stub.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod12.html#inst_tag_16"  onclick="showContent('inst_tag_16')">testbench.u_flash_sec</a></td>
+<td class="s9 cl rt"> 95.08</td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_16_Line" > 98.28</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_16_Cond" > 96.00</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_16_Toggle" > 91.67</a></td>
+<td class="s10 cl rt"><a href="mod12.html#inst_tag_16_FSM" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod12.html#inst_tag_16_Branch" > 89.47</a></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod12.html#inst_tag_15"  onclick="showContent('inst_tag_15')">testbench.u_flash_main</a></td>
+<td class="s9 cl rt"> 96.08</td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_15_Line" > 98.28</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_15_Cond" > 96.00</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_15_Toggle" > 96.67</a></td>
+<td class="s10 cl rt"><a href="mod12.html#inst_tag_15_FSM" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod12.html#inst_tag_15_Branch" > 89.47</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='inst_tag_16'>
+<hr>
+<a name="inst_tag_16"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_16" >testbench.u_flash_sec</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 95.08</td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_16_Line" > 98.28</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_16_Cond" > 96.00</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_16_Toggle" > 91.67</a></td>
+<td class="s10 cl rt"><a href="mod12.html#inst_tag_16_FSM" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod12.html#inst_tag_16_Branch" > 89.47</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 95.08</td>
+<td class="s9 cl rt"> 98.28</td>
+<td class="s9 cl rt"> 96.00</td>
+<td class="s9 cl rt"> 91.67</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s8 cl rt"> 89.47</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s7 cl rt"> 73.80</td>
+<td class="s9 cl rt"> 95.24</td>
+<td class="wht cl rt"></td>
+<td class="s5 cl rt"> 51.16</td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"> 75.00</td>
+<td><a href="mod11.html#inst_tag_14" >testbench</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_15'>
+<hr>
+<a name="inst_tag_15"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_15" >testbench.u_flash_main</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 96.08</td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_15_Line" > 98.28</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_15_Cond" > 96.00</a></td>
+<td class="s9 cl rt"><a href="mod12.html#inst_tag_15_Toggle" > 96.67</a></td>
+<td class="s10 cl rt"><a href="mod12.html#inst_tag_15_FSM" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod12.html#inst_tag_15_Branch" > 89.47</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 96.08</td>
+<td class="s9 cl rt"> 98.28</td>
+<td class="s9 cl rt"> 96.00</td>
+<td class="s9 cl rt"> 96.67</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s8 cl rt"> 89.47</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s7 cl rt"> 73.80</td>
+<td class="s9 cl rt"> 95.24</td>
+<td class="wht cl rt"></td>
+<td class="s5 cl rt"> 51.16</td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"> 75.00</td>
+<td><a href="mod11.html#inst_tag_14" >testbench</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_flash_stub'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod12.html" >flash_stub</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">TOTAL</td><td></td><td>58</td><td>57</td><td>98.28</td></tr>
+<tr class="s10"><td class="lf">INITIAL</td><td>26</td><td>2</td><td>2</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>31</td><td>7</td><td>7</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>42</td><td>3</td><td>3</td><td>100.00</td></tr>
+<tr class="s9"><td class="lf">ALWAYS</td><td>48</td><td>42</td><td>41</td><td>97.62</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>114</td><td>4</td><td>4</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+25                        initial begin
+26         1/1              spi.miso_drv = 1'b0;
+27         1/1              reset_fsm();
+28                        end
+29                      
+30                        task reset_fsm();
+31         1/1              state       = IDLE;
+32         1/1              bit_count   = 0;
+33         1/1              addr_bytes  = 0;
+34         1/1              addr        = 24'h0;
+35         1/1              payload.delete();
+36         1/1              is_read_cmd = 0;
+37         1/1              opcode      = 8'h00;
+38                        endtask
+39                      
+40                        // Initialize memory lazily on demand
+41                        function byte read_mem(int unsigned a);
+42         2/2              if (!mem.exists(a)) mem[a] = default_flash_byte(a, FLASH_ID);
+                        MISSING_ELSE
+43         1/1              return mem[a];
+44                        endfunction
+45                      
+46                        // Rising edge handles input shifting and state transitions
+47                        always @(posedge spi.sclk or posedge spi.cs_n) begin
+48         1/1              if (spi.cs_n) begin
+49         1/1                if (state != IDLE) begin
+50                              flash_obs_item obs = new();
+51         1/1                  obs.is_read  = is_read_cmd;
+52         1/1                  obs.cmd      = opcode;
+53         1/1                  obs.addr     = addr;
+54         1/1                  obs.data     = payload;
+55         1/1                  obs.flash_id = FLASH_ID;
+56         1/1                  obs.end_time = $time;
+57         2/2                  if (obs_mbx != null) obs_mbx.put(obs);
+                   <font color = "red">==>  MISSING_ELSE</font>
+58                            end
+                        MISSING_ELSE
+59         1/1                reset_fsm();
+60                          end else begin
+61         1/1                shift_in = {shift_in[6:0], spi.mosi};
+62         1/1                bit_count++;
+63         1/1                if (bit_count == 8) begin
+64         1/1                  bit_count = 0;
+65         1/1                  case (state)
+66                                IDLE: begin
+67         1/1                      opcode      = shift_in;
+68         1/1                      is_read_cmd = (shift_in == 8'h03 || shift_in == 8'h0B);
+69         1/1                      state       = CMD;
+70                                end
+71                                CMD: begin
+72         1/1                      addr[23:16] = shift_in;
+73         1/1                      state       = ADDR;
+74         1/1                      addr_bytes  = 1;
+75                                end
+76                                ADDR: begin
+77         2/2                      if (addr_bytes == 1) addr[15:8] = shift_in;
+                        MISSING_ELSE
+78         1/1                      if (addr_bytes == 2) begin
+79         1/1                        addr[7:0] = shift_in;
+80         1/1                        state     = (opcode == 8'h0B) ? DUMMY : DATA;
+81                                    // preload shift_out for read path
+82         1/1                        current_read_byte = read_mem(addr);
+83         1/1                        shift_out         = current_read_byte;
+84                                  end
+                        MISSING_ELSE
+85         1/1                      addr_bytes++;
+86                                end
+87                                DUMMY: begin
+88         1/1                      state     = DATA;
+89         1/1                      current_read_byte = read_mem(addr);
+90         1/1                      shift_out         = current_read_byte;
+91                                end
+92                                DATA: begin
+93         1/1                      if (is_read_cmd) begin
+94                                    // capture byte just served, then advance
+95         1/1                        payload.push_back(current_read_byte);
+96         1/1                        addr++;
+97         1/1                        current_read_byte = read_mem(addr);
+98         1/1                        shift_out         = current_read_byte;
+99                                  end else begin
+100                                   // program writes into memory
+101        1/1                        mem[addr] = shift_in;
+102        1/1                        payload.push_back(shift_in);
+103        1/1                        addr++;
+104                                 end
+105                               end
+106        <font color = "red">0/1     ==>            default: ;</font>
+107                             endcase
+108                           end
+                        MISSING_ELSE
+109                         end
+110                       end
+111                     
+112                       // Drive MISO on falling edge so master samples on rising edge (mode 0)
+113                       always @(negedge spi.sclk) begin
+114        1/1              if (!spi.cs_n &amp;&amp; is_read_cmd &amp;&amp; state == DATA) begin
+115        1/1                spi.miso_drv &lt;= shift_out[7];
+116        1/1                shift_out    &lt;= {shift_out[6:0], 1'b0};
+117                         end else begin
+118        1/1                spi.miso_drv &lt;= 1'b0;
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod12.html" >flash_stub</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">Conditions</td><td>25</td><td>24</td><td>96.00</td></tr>
+<tr class="s9"><td class="lf">Logical</td><td>25</td><td>24</td><td>96.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       49
+ EXPRESSION (state != IDLE)
+            -------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       63
+ EXPRESSION (bit_count == 8)
+            --------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ EXPRESSION ((shift_in == 8'h03) || (shift_in == 8'h0b))
+             ---------1---------    ---------2---------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ SUB-EXPRESSION (shift_in == 8'h03)
+                ---------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ SUB-EXPRESSION (shift_in == 8'h0b)
+                ---------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       77
+ EXPRESSION (addr_bytes == 1)
+            --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       78
+ EXPRESSION (addr_bytes == 2)
+            --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       80
+ EXPRESSION ((opcode == 8'h0b) ? DUMMY : DATA)
+             --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       80
+ SUB-EXPRESSION (opcode == 8'h0b)
+                --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       114
+ EXPRESSION (((!spi.cs_n)) &amp;&amp; is_read_cmd &amp;&amp; (state == DATA))
+             ------1------    -----2-----    -------3-------
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       114
+ SUB-EXPRESSION (state == DATA)
+                -------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod12.html" >flash_stub</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s8">
+<td>Totals</td>
+<td class="rt">7</td>
+<td class="rt">6</td>
+<td class="rt">85.71 </td>
+</tr><tr class="s9">
+<td>Total Bits</td>
+<td class="rt">120</td>
+<td class="rt">116</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s8">
+<td>Signals</td>
+<td class="rt">7</td>
+<td class="rt">6</td>
+<td class="rt">85.71 </td>
+</tr><tr class="s9">
+<td>Signal Bits</td>
+<td class="rt">120</td>
+<td class="rt">116</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>state[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>shift_in[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>shift_out[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>current_read_byte[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>addr[23:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>is_read_cmd</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>opcode[4:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>opcode[6:5]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>opcode[7]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+<hr>
+<a name="FSM"></a>
+FSM Coverage for Module : <a href="mod12.html" >flash_stub</a><br clear=all>
+<table align=left class="noborder">
+<caption><b>Summary for FSM :: state</b></caption>
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th><th nowrap width=200></th></tr><tr class="wht">
+<td>States</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+<td>(Not included in score)</td>
+</tr><tr class="s10">
+<td>Transitions</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+<td></td>
+</tr><tr class="wht">
+<td>Sequences</td>
+<td class="rt">0</td>
+<td class="rt">0</td>
+<td></td>
+<td></td>
+</tr></table><br clear=all>
+<b>State, Transition and Sequence Details for FSM :: state</b><hr>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">states</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ADDR</td>
+<td class="rt">73</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD</td>
+<td class="rt">69</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DATA</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DUMMY</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE</td>
+<td class="rt">66</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">transitions</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ADDR->DATA</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ADDR->DUMMY</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD->ADDR</td>
+<td class="rt">73</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DUMMY->DATA</td>
+<td class="rt">88</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE->CMD</td>
+<td class="rt">69</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod12.html" >flash_stub</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s8">
+<td>Branches</td>
+<td></td>
+<td class="rt">19</td>
+<td class="rt">17</td>
+<td class="rt">89.47 </td>
+</tr><tr class="s8">
+<td>IF</td>
+<td class="rt">48</td>
+<td class="rt">15</td>
+<td class="rt">13</td>
+<td class="rt">86.67 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">114</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">42</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+48             if (spi.cs_n) begin
+               <font color = "green">-1-</font>  
+49               if (state != IDLE) begin
+                 <font color = "green">-2-</font>  
+50                 flash_obs_item obs = new();
+51                 obs.is_read  = is_read_cmd;
+52                 obs.cmd      = opcode;
+53                 obs.addr     = addr;
+54                 obs.data     = payload;
+55                 obs.flash_id = FLASH_ID;
+56                 obs.end_time = $time;
+57                 if (obs_mbx != null) obs_mbx.put(obs);
+                   <font color = "red">-3-</font>  
+           <font color = "green">        ==></font>
+                   MISSING_ELSE
+           <font color = "red">        ==></font>
+58               end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+59               reset_fsm();
+60             end else begin
+61               shift_in = {shift_in[6:0], spi.mosi};
+62               bit_count++;
+63               if (bit_count == 8) begin
+                 <font color = "green">-4-</font>  
+64                 bit_count = 0;
+65                 case (state)
+                   <font color = "red">-5-</font>  
+66                   IDLE: begin
+67                     opcode      = shift_in;
+           <font color = "green">            ==></font>
+68                     is_read_cmd = (shift_in == 8'h03 || shift_in == 8'h0B);
+69                     state       = CMD;
+70                   end
+71                   CMD: begin
+72                     addr[23:16] = shift_in;
+           <font color = "green">            ==></font>
+73                     state       = ADDR;
+74                     addr_bytes  = 1;
+75                   end
+76                   ADDR: begin
+77                     if (addr_bytes == 1) addr[15:8] = shift_in;
+                       <font color = "green">-6-</font>                                    
+           <font color = "green">            ==></font>
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+78                     if (addr_bytes == 2) begin
+                       <font color = "green">-7-</font>  
+79                       addr[7:0] = shift_in;
+80                       state     = (opcode == 8'h0B) ? DUMMY : DATA;
+                                                       <font color = "green">-8-</font>  
+                                                       <font color = "green">==></font>  
+                                                       <font color = "green">==></font>  
+81                       // preload shift_out for read path
+82                       current_read_byte = read_mem(addr);
+83                       shift_out         = current_read_byte;
+84                     end
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+85                     addr_bytes++;
+86                   end
+87                   DUMMY: begin
+88                     state     = DATA;
+           <font color = "green">            ==></font>
+89                     current_read_byte = read_mem(addr);
+90                     shift_out         = current_read_byte;
+91                   end
+92                   DATA: begin
+93                     if (is_read_cmd) begin
+                       <font color = "green">-9-</font>  
+94                       // capture byte just served, then advance
+95                       payload.push_back(current_read_byte);
+           <font color = "green">              ==></font>
+96                       addr++;
+97                       current_read_byte = read_mem(addr);
+98                       shift_out         = current_read_byte;
+99                     end else begin
+100                      // program writes into memory
+101                      mem[addr] = shift_in;
+           <font color = "green">              ==></font>
+102                      payload.push_back(shift_in);
+103                      addr++;
+104                    end
+105                  end
+106                  default: ;
+           <font color = "red">          ==></font>
+107                endcase
+108              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>IDLE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>CMD </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DUMMY </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DATA </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DATA </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+114            if (!spi.cs_n && is_read_cmd && state == DATA) begin
+               <font color = "green">-1-</font>  
+115              spi.miso_drv <= shift_out[7];
+           <font color = "green">      ==></font>
+116              shift_out    <= {shift_out[6:0], 1'b0};
+117            end else begin
+118              spi.miso_drv <= 1'b0;
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+42             if (!mem.exists(a)) mem[a] = default_flash_byte(a, FLASH_ID);
+               <font color = "green">-1-</font>  
+           <font color = "green">    ==></font>
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_16'>
+<a name="inst_tag_16_Line"></a>
+<b>Line Coverage for Instance : <a href="mod12.html#inst_tag_16" >testbench.u_flash_sec</a></b><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">TOTAL</td><td></td><td>58</td><td>57</td><td>98.28</td></tr>
+<tr class="s10"><td class="lf">INITIAL</td><td>26</td><td>2</td><td>2</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>31</td><td>7</td><td>7</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>42</td><td>3</td><td>3</td><td>100.00</td></tr>
+<tr class="s9"><td class="lf">ALWAYS</td><td>48</td><td>42</td><td>41</td><td>97.62</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>114</td><td>4</td><td>4</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+25                        initial begin
+26         1/1              spi.miso_drv = 1'b0;
+27         1/1              reset_fsm();
+28                        end
+29                      
+30                        task reset_fsm();
+31         1/1              state       = IDLE;
+32         1/1              bit_count   = 0;
+33         1/1              addr_bytes  = 0;
+34         1/1              addr        = 24'h0;
+35         1/1              payload.delete();
+36         1/1              is_read_cmd = 0;
+37         1/1              opcode      = 8'h00;
+38                        endtask
+39                      
+40                        // Initialize memory lazily on demand
+41                        function byte read_mem(int unsigned a);
+42         2/2              if (!mem.exists(a)) mem[a] = default_flash_byte(a, FLASH_ID);
+                        MISSING_ELSE
+43         1/1              return mem[a];
+44                        endfunction
+45                      
+46                        // Rising edge handles input shifting and state transitions
+47                        always @(posedge spi.sclk or posedge spi.cs_n) begin
+48         1/1              if (spi.cs_n) begin
+49         1/1                if (state != IDLE) begin
+50                              flash_obs_item obs = new();
+51         1/1                  obs.is_read  = is_read_cmd;
+52         1/1                  obs.cmd      = opcode;
+53         1/1                  obs.addr     = addr;
+54         1/1                  obs.data     = payload;
+55         1/1                  obs.flash_id = FLASH_ID;
+56         1/1                  obs.end_time = $time;
+57         2/2                  if (obs_mbx != null) obs_mbx.put(obs);
+                   <font color = "red">==>  MISSING_ELSE</font>
+58                            end
+                        MISSING_ELSE
+59         1/1                reset_fsm();
+60                          end else begin
+61         1/1                shift_in = {shift_in[6:0], spi.mosi};
+62         1/1                bit_count++;
+63         1/1                if (bit_count == 8) begin
+64         1/1                  bit_count = 0;
+65         1/1                  case (state)
+66                                IDLE: begin
+67         1/1                      opcode      = shift_in;
+68         1/1                      is_read_cmd = (shift_in == 8'h03 || shift_in == 8'h0B);
+69         1/1                      state       = CMD;
+70                                end
+71                                CMD: begin
+72         1/1                      addr[23:16] = shift_in;
+73         1/1                      state       = ADDR;
+74         1/1                      addr_bytes  = 1;
+75                                end
+76                                ADDR: begin
+77         2/2                      if (addr_bytes == 1) addr[15:8] = shift_in;
+                        MISSING_ELSE
+78         1/1                      if (addr_bytes == 2) begin
+79         1/1                        addr[7:0] = shift_in;
+80         1/1                        state     = (opcode == 8'h0B) ? DUMMY : DATA;
+81                                    // preload shift_out for read path
+82         1/1                        current_read_byte = read_mem(addr);
+83         1/1                        shift_out         = current_read_byte;
+84                                  end
+                        MISSING_ELSE
+85         1/1                      addr_bytes++;
+86                                end
+87                                DUMMY: begin
+88         1/1                      state     = DATA;
+89         1/1                      current_read_byte = read_mem(addr);
+90         1/1                      shift_out         = current_read_byte;
+91                                end
+92                                DATA: begin
+93         1/1                      if (is_read_cmd) begin
+94                                    // capture byte just served, then advance
+95         1/1                        payload.push_back(current_read_byte);
+96         1/1                        addr++;
+97         1/1                        current_read_byte = read_mem(addr);
+98         1/1                        shift_out         = current_read_byte;
+99                                  end else begin
+100                                   // program writes into memory
+101        1/1                        mem[addr] = shift_in;
+102        1/1                        payload.push_back(shift_in);
+103        1/1                        addr++;
+104                                 end
+105                               end
+106        <font color = "red">0/1     ==>            default: ;</font>
+107                             endcase
+108                           end
+                        MISSING_ELSE
+109                         end
+110                       end
+111                     
+112                       // Drive MISO on falling edge so master samples on rising edge (mode 0)
+113                       always @(negedge spi.sclk) begin
+114        1/1              if (!spi.cs_n &amp;&amp; is_read_cmd &amp;&amp; state == DATA) begin
+115        1/1                spi.miso_drv &lt;= shift_out[7];
+116        1/1                shift_out    &lt;= {shift_out[6:0], 1'b0};
+117                         end else begin
+118        1/1                spi.miso_drv &lt;= 1'b0;
+</pre>
+<hr>
+<a name="inst_tag_16_Cond"></a>
+<b>Cond Coverage for Instance : <a href="mod12.html#inst_tag_16" >testbench.u_flash_sec</a></b><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">Conditions</td><td>25</td><td>24</td><td>96.00</td></tr>
+<tr class="s9"><td class="lf">Logical</td><td>25</td><td>24</td><td>96.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       49
+ EXPRESSION (state != IDLE)
+            -------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       63
+ EXPRESSION (bit_count == 8)
+            --------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ EXPRESSION ((shift_in == 8'h03) || (shift_in == 8'h0b))
+             ---------1---------    ---------2---------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ SUB-EXPRESSION (shift_in == 8'h03)
+                ---------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ SUB-EXPRESSION (shift_in == 8'h0b)
+                ---------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       77
+ EXPRESSION (addr_bytes == 1)
+            --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       78
+ EXPRESSION (addr_bytes == 2)
+            --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       80
+ EXPRESSION ((opcode == 8'h0b) ? DUMMY : DATA)
+             --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       80
+ SUB-EXPRESSION (opcode == 8'h0b)
+                --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       114
+ EXPRESSION (((!spi.cs_n)) &amp;&amp; is_read_cmd &amp;&amp; (state == DATA))
+             ------1------    -----2-----    -------3-------
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       114
+ SUB-EXPRESSION (state == DATA)
+                -------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="inst_tag_16_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod12.html#inst_tag_16" >testbench.u_flash_sec</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s8">
+<td>Totals</td>
+<td class="rt">7</td>
+<td class="rt">6</td>
+<td class="rt">85.71 </td>
+</tr><tr class="s9">
+<td>Total Bits</td>
+<td class="rt">120</td>
+<td class="rt">110</td>
+<td class="rt">91.67 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">60</td>
+<td class="rt">55</td>
+<td class="rt">91.67 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">60</td>
+<td class="rt">55</td>
+<td class="rt">91.67 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s8">
+<td>Signals</td>
+<td class="rt">7</td>
+<td class="rt">6</td>
+<td class="rt">85.71 </td>
+</tr><tr class="s9">
+<td>Signal Bits</td>
+<td class="rt">120</td>
+<td class="rt">110</td>
+<td class="rt">91.67 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">60</td>
+<td class="rt">55</td>
+<td class="rt">91.67 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">60</td>
+<td class="rt">55</td>
+<td class="rt">91.67 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>state[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>shift_in[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>shift_out[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>current_read_byte[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>addr[23:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>is_read_cmd</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>opcode[1:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>opcode[2]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>opcode[3]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>opcode[7:4]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr></table><br clear=all>
+<hr>
+<a name="inst_tag_16_FSM"></a>
+<b>FSM Coverage for Instance : <a href="mod12.html#inst_tag_16" >testbench.u_flash_sec</a></b><br clear=all>
+<table align=left class="noborder">
+<caption><b>Summary for FSM :: state</b></caption>
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th><th nowrap width=200></th></tr><tr class="wht">
+<td>States</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+<td>(Not included in score)</td>
+</tr><tr class="s10">
+<td>Transitions</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+<td></td>
+</tr><tr class="wht">
+<td>Sequences</td>
+<td class="rt">0</td>
+<td class="rt">0</td>
+<td></td>
+<td></td>
+</tr></table><br clear=all>
+<b>State, Transition and Sequence Details for FSM :: state</b><hr>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">states</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ADDR</td>
+<td class="rt">73</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD</td>
+<td class="rt">69</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DATA</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DUMMY</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE</td>
+<td class="rt">66</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">transitions</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ADDR->DATA</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ADDR->DUMMY</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD->ADDR</td>
+<td class="rt">73</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DUMMY->DATA</td>
+<td class="rt">88</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE->CMD</td>
+<td class="rt">69</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<hr>
+<a name="inst_tag_16_Branch"></a>
+<b>Branch Coverage for Instance : <a href="mod12.html#inst_tag_16" >testbench.u_flash_sec</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s8">
+<td>Branches</td>
+<td></td>
+<td class="rt">19</td>
+<td class="rt">17</td>
+<td class="rt">89.47 </td>
+</tr><tr class="s8">
+<td>IF</td>
+<td class="rt">48</td>
+<td class="rt">15</td>
+<td class="rt">13</td>
+<td class="rt">86.67 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">114</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">42</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+48             if (spi.cs_n) begin
+               <font color = "green">-1-</font>  
+49               if (state != IDLE) begin
+                 <font color = "green">-2-</font>  
+50                 flash_obs_item obs = new();
+51                 obs.is_read  = is_read_cmd;
+52                 obs.cmd      = opcode;
+53                 obs.addr     = addr;
+54                 obs.data     = payload;
+55                 obs.flash_id = FLASH_ID;
+56                 obs.end_time = $time;
+57                 if (obs_mbx != null) obs_mbx.put(obs);
+                   <font color = "red">-3-</font>  
+           <font color = "green">        ==></font>
+                   MISSING_ELSE
+           <font color = "red">        ==></font>
+58               end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+59               reset_fsm();
+60             end else begin
+61               shift_in = {shift_in[6:0], spi.mosi};
+62               bit_count++;
+63               if (bit_count == 8) begin
+                 <font color = "green">-4-</font>  
+64                 bit_count = 0;
+65                 case (state)
+                   <font color = "red">-5-</font>  
+66                   IDLE: begin
+67                     opcode      = shift_in;
+           <font color = "green">            ==></font>
+68                     is_read_cmd = (shift_in == 8'h03 || shift_in == 8'h0B);
+69                     state       = CMD;
+70                   end
+71                   CMD: begin
+72                     addr[23:16] = shift_in;
+           <font color = "green">            ==></font>
+73                     state       = ADDR;
+74                     addr_bytes  = 1;
+75                   end
+76                   ADDR: begin
+77                     if (addr_bytes == 1) addr[15:8] = shift_in;
+                       <font color = "green">-6-</font>                                    
+           <font color = "green">            ==></font>
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+78                     if (addr_bytes == 2) begin
+                       <font color = "green">-7-</font>  
+79                       addr[7:0] = shift_in;
+80                       state     = (opcode == 8'h0B) ? DUMMY : DATA;
+                                                       <font color = "green">-8-</font>  
+                                                       <font color = "green">==></font>  
+                                                       <font color = "green">==></font>  
+81                       // preload shift_out for read path
+82                       current_read_byte = read_mem(addr);
+83                       shift_out         = current_read_byte;
+84                     end
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+85                     addr_bytes++;
+86                   end
+87                   DUMMY: begin
+88                     state     = DATA;
+           <font color = "green">            ==></font>
+89                     current_read_byte = read_mem(addr);
+90                     shift_out         = current_read_byte;
+91                   end
+92                   DATA: begin
+93                     if (is_read_cmd) begin
+                       <font color = "green">-9-</font>  
+94                       // capture byte just served, then advance
+95                       payload.push_back(current_read_byte);
+           <font color = "green">              ==></font>
+96                       addr++;
+97                       current_read_byte = read_mem(addr);
+98                       shift_out         = current_read_byte;
+99                     end else begin
+100                      // program writes into memory
+101                      mem[addr] = shift_in;
+           <font color = "green">              ==></font>
+102                      payload.push_back(shift_in);
+103                      addr++;
+104                    end
+105                  end
+106                  default: ;
+           <font color = "red">          ==></font>
+107                endcase
+108              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>IDLE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>CMD </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DUMMY </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DATA </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DATA </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+114            if (!spi.cs_n && is_read_cmd && state == DATA) begin
+               <font color = "green">-1-</font>  
+115              spi.miso_drv <= shift_out[7];
+           <font color = "green">      ==></font>
+116              shift_out    <= {shift_out[6:0], 1'b0};
+117            end else begin
+118              spi.miso_drv <= 1'b0;
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+42             if (!mem.exists(a)) mem[a] = default_flash_byte(a, FLASH_ID);
+               <font color = "green">-1-</font>  
+           <font color = "green">    ==></font>
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_15'>
+<a name="inst_tag_15_Line"></a>
+<b>Line Coverage for Instance : <a href="mod12.html#inst_tag_15" >testbench.u_flash_main</a></b><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">TOTAL</td><td></td><td>58</td><td>57</td><td>98.28</td></tr>
+<tr class="s10"><td class="lf">INITIAL</td><td>26</td><td>2</td><td>2</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>31</td><td>7</td><td>7</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>42</td><td>3</td><td>3</td><td>100.00</td></tr>
+<tr class="s9"><td class="lf">ALWAYS</td><td>48</td><td>42</td><td>41</td><td>97.62</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>114</td><td>4</td><td>4</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+25                        initial begin
+26         1/1              spi.miso_drv = 1'b0;
+27         1/1              reset_fsm();
+28                        end
+29                      
+30                        task reset_fsm();
+31         1/1              state       = IDLE;
+32         1/1              bit_count   = 0;
+33         1/1              addr_bytes  = 0;
+34         1/1              addr        = 24'h0;
+35         1/1              payload.delete();
+36         1/1              is_read_cmd = 0;
+37         1/1              opcode      = 8'h00;
+38                        endtask
+39                      
+40                        // Initialize memory lazily on demand
+41                        function byte read_mem(int unsigned a);
+42         2/2              if (!mem.exists(a)) mem[a] = default_flash_byte(a, FLASH_ID);
+                        MISSING_ELSE
+43         1/1              return mem[a];
+44                        endfunction
+45                      
+46                        // Rising edge handles input shifting and state transitions
+47                        always @(posedge spi.sclk or posedge spi.cs_n) begin
+48         1/1              if (spi.cs_n) begin
+49         1/1                if (state != IDLE) begin
+50                              flash_obs_item obs = new();
+51         1/1                  obs.is_read  = is_read_cmd;
+52         1/1                  obs.cmd      = opcode;
+53         1/1                  obs.addr     = addr;
+54         1/1                  obs.data     = payload;
+55         1/1                  obs.flash_id = FLASH_ID;
+56         1/1                  obs.end_time = $time;
+57         2/2                  if (obs_mbx != null) obs_mbx.put(obs);
+                   <font color = "red">==>  MISSING_ELSE</font>
+58                            end
+                        MISSING_ELSE
+59         1/1                reset_fsm();
+60                          end else begin
+61         1/1                shift_in = {shift_in[6:0], spi.mosi};
+62         1/1                bit_count++;
+63         1/1                if (bit_count == 8) begin
+64         1/1                  bit_count = 0;
+65         1/1                  case (state)
+66                                IDLE: begin
+67         1/1                      opcode      = shift_in;
+68         1/1                      is_read_cmd = (shift_in == 8'h03 || shift_in == 8'h0B);
+69         1/1                      state       = CMD;
+70                                end
+71                                CMD: begin
+72         1/1                      addr[23:16] = shift_in;
+73         1/1                      state       = ADDR;
+74         1/1                      addr_bytes  = 1;
+75                                end
+76                                ADDR: begin
+77         2/2                      if (addr_bytes == 1) addr[15:8] = shift_in;
+                        MISSING_ELSE
+78         1/1                      if (addr_bytes == 2) begin
+79         1/1                        addr[7:0] = shift_in;
+80         1/1                        state     = (opcode == 8'h0B) ? DUMMY : DATA;
+81                                    // preload shift_out for read path
+82         1/1                        current_read_byte = read_mem(addr);
+83         1/1                        shift_out         = current_read_byte;
+84                                  end
+                        MISSING_ELSE
+85         1/1                      addr_bytes++;
+86                                end
+87                                DUMMY: begin
+88         1/1                      state     = DATA;
+89         1/1                      current_read_byte = read_mem(addr);
+90         1/1                      shift_out         = current_read_byte;
+91                                end
+92                                DATA: begin
+93         1/1                      if (is_read_cmd) begin
+94                                    // capture byte just served, then advance
+95         1/1                        payload.push_back(current_read_byte);
+96         1/1                        addr++;
+97         1/1                        current_read_byte = read_mem(addr);
+98         1/1                        shift_out         = current_read_byte;
+99                                  end else begin
+100                                   // program writes into memory
+101        1/1                        mem[addr] = shift_in;
+102        1/1                        payload.push_back(shift_in);
+103        1/1                        addr++;
+104                                 end
+105                               end
+106        <font color = "red">0/1     ==>            default: ;</font>
+107                             endcase
+108                           end
+                        MISSING_ELSE
+109                         end
+110                       end
+111                     
+112                       // Drive MISO on falling edge so master samples on rising edge (mode 0)
+113                       always @(negedge spi.sclk) begin
+114        1/1              if (!spi.cs_n &amp;&amp; is_read_cmd &amp;&amp; state == DATA) begin
+115        1/1                spi.miso_drv &lt;= shift_out[7];
+116        1/1                shift_out    &lt;= {shift_out[6:0], 1'b0};
+117                         end else begin
+118        1/1                spi.miso_drv &lt;= 1'b0;
+</pre>
+<hr>
+<a name="inst_tag_15_Cond"></a>
+<b>Cond Coverage for Instance : <a href="mod12.html#inst_tag_15" >testbench.u_flash_main</a></b><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">Conditions</td><td>25</td><td>24</td><td>96.00</td></tr>
+<tr class="s9"><td class="lf">Logical</td><td>25</td><td>24</td><td>96.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       49
+ EXPRESSION (state != IDLE)
+            -------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       63
+ EXPRESSION (bit_count == 8)
+            --------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ EXPRESSION ((shift_in == 8'h03) || (shift_in == 8'h0b))
+             ---------1---------    ---------2---------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ SUB-EXPRESSION (shift_in == 8'h03)
+                ---------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       68
+ SUB-EXPRESSION (shift_in == 8'h0b)
+                ---------1---------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       77
+ EXPRESSION (addr_bytes == 1)
+            --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       78
+ EXPRESSION (addr_bytes == 2)
+            --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       80
+ EXPRESSION ((opcode == 8'h0b) ? DUMMY : DATA)
+             --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       80
+ SUB-EXPRESSION (opcode == 8'h0b)
+                --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       114
+ EXPRESSION (((!spi.cs_n)) &amp;&amp; is_read_cmd &amp;&amp; (state == DATA))
+             ------1------    -----2-----    -------3-------
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       114
+ SUB-EXPRESSION (state == DATA)
+                -------1-------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="inst_tag_15_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod12.html#inst_tag_15" >testbench.u_flash_main</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s8">
+<td>Totals</td>
+<td class="rt">7</td>
+<td class="rt">6</td>
+<td class="rt">85.71 </td>
+</tr><tr class="s9">
+<td>Total Bits</td>
+<td class="rt">120</td>
+<td class="rt">116</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s8">
+<td>Signals</td>
+<td class="rt">7</td>
+<td class="rt">6</td>
+<td class="rt">85.71 </td>
+</tr><tr class="s9">
+<td>Signal Bits</td>
+<td class="rt">120</td>
+<td class="rt">116</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">60</td>
+<td class="rt">58</td>
+<td class="rt">96.67 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>state[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>shift_in[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>shift_out[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>current_read_byte[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>addr[23:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>is_read_cmd</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>opcode[4:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>opcode[6:5]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>opcode[7]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+<hr>
+<a name="inst_tag_15_FSM"></a>
+<b>FSM Coverage for Instance : <a href="mod12.html#inst_tag_15" >testbench.u_flash_main</a></b><br clear=all>
+<table align=left class="noborder">
+<caption><b>Summary for FSM :: state</b></caption>
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th><th nowrap width=200></th></tr><tr class="wht">
+<td>States</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+<td>(Not included in score)</td>
+</tr><tr class="s10">
+<td>Transitions</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+<td></td>
+</tr><tr class="wht">
+<td>Sequences</td>
+<td class="rt">0</td>
+<td class="rt">0</td>
+<td></td>
+<td></td>
+</tr></table><br clear=all>
+<b>State, Transition and Sequence Details for FSM :: state</b><hr>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">states</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ADDR</td>
+<td class="rt">73</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD</td>
+<td class="rt">69</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DATA</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DUMMY</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE</td>
+<td class="rt">66</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">transitions</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ADDR->DATA</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ADDR->DUMMY</td>
+<td class="rt">80</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>CMD->ADDR</td>
+<td class="rt">73</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>DUMMY->DATA</td>
+<td class="rt">88</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>IDLE->CMD</td>
+<td class="rt">69</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<hr>
+<a name="inst_tag_15_Branch"></a>
+<b>Branch Coverage for Instance : <a href="mod12.html#inst_tag_15" >testbench.u_flash_main</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s8">
+<td>Branches</td>
+<td></td>
+<td class="rt">19</td>
+<td class="rt">17</td>
+<td class="rt">89.47 </td>
+</tr><tr class="s8">
+<td>IF</td>
+<td class="rt">48</td>
+<td class="rt">15</td>
+<td class="rt">13</td>
+<td class="rt">86.67 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">114</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">42</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+48             if (spi.cs_n) begin
+               <font color = "green">-1-</font>  
+49               if (state != IDLE) begin
+                 <font color = "green">-2-</font>  
+50                 flash_obs_item obs = new();
+51                 obs.is_read  = is_read_cmd;
+52                 obs.cmd      = opcode;
+53                 obs.addr     = addr;
+54                 obs.data     = payload;
+55                 obs.flash_id = FLASH_ID;
+56                 obs.end_time = $time;
+57                 if (obs_mbx != null) obs_mbx.put(obs);
+                   <font color = "red">-3-</font>  
+           <font color = "green">        ==></font>
+                   MISSING_ELSE
+           <font color = "red">        ==></font>
+58               end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+59               reset_fsm();
+60             end else begin
+61               shift_in = {shift_in[6:0], spi.mosi};
+62               bit_count++;
+63               if (bit_count == 8) begin
+                 <font color = "green">-4-</font>  
+64                 bit_count = 0;
+65                 case (state)
+                   <font color = "red">-5-</font>  
+66                   IDLE: begin
+67                     opcode      = shift_in;
+           <font color = "green">            ==></font>
+68                     is_read_cmd = (shift_in == 8'h03 || shift_in == 8'h0B);
+69                     state       = CMD;
+70                   end
+71                   CMD: begin
+72                     addr[23:16] = shift_in;
+           <font color = "green">            ==></font>
+73                     state       = ADDR;
+74                     addr_bytes  = 1;
+75                   end
+76                   ADDR: begin
+77                     if (addr_bytes == 1) addr[15:8] = shift_in;
+                       <font color = "green">-6-</font>                                    
+           <font color = "green">            ==></font>
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+78                     if (addr_bytes == 2) begin
+                       <font color = "green">-7-</font>  
+79                       addr[7:0] = shift_in;
+80                       state     = (opcode == 8'h0B) ? DUMMY : DATA;
+                                                       <font color = "green">-8-</font>  
+                                                       <font color = "green">==></font>  
+                                                       <font color = "green">==></font>  
+81                       // preload shift_out for read path
+82                       current_read_byte = read_mem(addr);
+83                       shift_out         = current_read_byte;
+84                     end
+                       MISSING_ELSE
+           <font color = "green">            ==></font>
+85                     addr_bytes++;
+86                   end
+87                   DUMMY: begin
+88                     state     = DATA;
+           <font color = "green">            ==></font>
+89                     current_read_byte = read_mem(addr);
+90                     shift_out         = current_read_byte;
+91                   end
+92                   DATA: begin
+93                     if (is_read_cmd) begin
+                       <font color = "green">-9-</font>  
+94                       // capture byte just served, then advance
+95                       payload.push_back(current_read_byte);
+           <font color = "green">              ==></font>
+96                       addr++;
+97                       current_read_byte = read_mem(addr);
+98                       shift_out         = current_read_byte;
+99                     end else begin
+100                      // program writes into memory
+101                      mem[addr] = shift_in;
+           <font color = "green">              ==></font>
+102                      payload.push_back(shift_in);
+103                      addr++;
+104                    end
+105                  end
+106                  default: ;
+           <font color = "red">          ==></font>
+107                endcase
+108              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>IDLE </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>CMD </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>ADDR </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DUMMY </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DATA </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>DATA </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>default</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+114            if (!spi.cs_n && is_read_cmd && state == DATA) begin
+               <font color = "green">-1-</font>  
+115              spi.miso_drv <= shift_out[7];
+           <font color = "green">      ==></font>
+116              shift_out    <= {shift_out[6:0], 1'b0};
+117            end else begin
+118              spi.miso_drv <= 1'b0;
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+42             if (!mem.exists(a)) mem[a] = default_flash_byte(a, FLASH_ID);
+               <font color = "green">-1-</font>  
+           <font color = "green">    ==></font>
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_15">
+    <li>
+      <a href="#inst_tag_15_Line">Line</a>    </li>
+    <li>
+      <a href="#inst_tag_15_Cond">Cond</a>    </li>
+    <li>
+      <a href="#inst_tag_15_Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#inst_tag_15_FSM">FSM</a>    </li>
+    <li>
+      <a href="#inst_tag_15_Branch">Branch</a>    </li>
+  </ul>
+  <ul name="inst_tag_16">
+    <li>
+      <a href="#inst_tag_16_Line">Line</a>    </li>
+    <li>
+      <a href="#inst_tag_16_Cond">Cond</a>    </li>
+    <li>
+      <a href="#inst_tag_16_Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#inst_tag_16_FSM">FSM</a>    </li>
+    <li>
+      <a href="#inst_tag_16_Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_flash_stub">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#FSM">FSM</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

@@ -1,0 +1,228 @@
+global coverage_group 0 $unit::raid_cov::cfg_cg __coverage_raid_cov.cfg_cg unused_raid_cov_cfg_cg_loop_label $unit 0 1 0 1 $unit::design.sv::flash_mux_miso.v...@1028509268 0  ( 0 
+)
+ 1 1
+ 0 24 /home/runner/raid_cov.sv
+ 5 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+4
+0
+0
+0
+ 7 mode_cp 6 0 0 0 0 0 50 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn 50 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 7 2 1 21 raid_pkg::raid_mode_e 0 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 4 main 6 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 secondary 7 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 share 8 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_2 0 0 0 0 0 0 0
+ 0
+
+ 7 host_cp 9 0 0 0 0 0 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_3 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_3 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 4 main 9 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_4 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 secondary 9 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_5 0 0 0 0 0 0 0
+ 0
+
+ 12 range0_en_cp 10 0 0 0 0 0 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_6 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_6 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 12 range1_en_cp 11 0 0 0 0 0 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_7 52 raid_cov::_vcs_unit__1028509268_raid_cov_cfg_cg_fn_7 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
+global coverage_group 0 $unit::raid_cov::route_cg __coverage_raid_cov.route_cg unused_raid_cov_route_cg_loop_label $unit 0 1 0 1 $unit::design.sv::flash_mux_miso.v...@1028509268 0  ( 0 
+)
+ 0 14 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+0
+ 8 flash_cp 15 0 0 0 0 0 52 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn 52 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 1 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 4 main 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 secondary 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 9 opcode_cp 16 0 0 0 0 0 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_2 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_2 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 22 8 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 1 1 8 read_std 17 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 read_fast 18 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_4 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 write 19 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_5 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 other 20 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 8 0 0 0 0 0 0 0 0 0
+
+ 9 range_hit 22 0 0 0 0 0 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_6 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_6 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 1 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 4 none 22 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_7 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 2 r0 22 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 2 r1 22 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 raid_cov::_vcs_unit__1028509268_raid_cov_route_cg_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 15 flash_opcode_cp 0 23 0 0 -1 0 0 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

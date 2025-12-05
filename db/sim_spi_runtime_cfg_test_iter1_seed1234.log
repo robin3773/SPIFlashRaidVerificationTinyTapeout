@@ -1,0 +1,18 @@
+Command: /home/runner/./simv +TEST=spi_runtime_cfg_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_runtime_cfg_test_iter1_seed1234.vdb -l sim_spi_runtime_cfg_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1471000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000400 len=2 from=main)
+[1471000][SB] Read data mismatch @0 exp=ff got=00 addr=0x000400
+[1471000][SB] Read data mismatch @1 exp=fe got=01 addr=0x000400
+==== TEST spi_runtime_cfg_test FAILED: 3 errors (SB=3, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2476000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2476000 ps
+CPU Time:      0.570 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:33 2025

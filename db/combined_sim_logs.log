@@ -1,0 +1,1508 @@
+﻿
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_addr_high_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_addr_high_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_addr_high_test_iter1_seed1234.vdb -l sim_spi_addr_high_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2746000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x0b addr=0xffffff len=4 from=main)
+[2746000][SB] Read data mismatch @0 exp=00 got=ff addr=0xffffff
+[2746000][SB] Read data mismatch @1 exp=ff got=00 addr=0xffffff
+[2746000][SB] Read data mismatch @2 exp=fe got=01 addr=0xffffff
+[2746000][SB] Read data mismatch @3 exp=fd got=02 addr=0xffffff
+==== TEST spi_addr_high_test FAILED: 5 errors (SB=5, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3751000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3751000 ps
+CPU Time:      0.470 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:32 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_addr_high_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_addr_high_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_addr_high_test_iter1_seed5678.vdb -l sim_spi_addr_high_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2746000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x0b addr=0xffffff len=4 from=main)
+[2746000][SB] Read data mismatch @0 exp=00 got=ff addr=0xffffff
+[2746000][SB] Read data mismatch @1 exp=ff got=00 addr=0xffffff
+[2746000][SB] Read data mismatch @2 exp=fe got=01 addr=0xffffff
+[2746000][SB] Read data mismatch @3 exp=fd got=02 addr=0xffffff
+==== TEST spi_addr_high_test FAILED: 5 errors (SB=5, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3751000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3751000 ps
+CPU Time:      0.480 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:32 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_addr_low_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_addr_low_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_addr_low_test_iter1_seed1234.vdb -l sim_spi_addr_low_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_addr_low_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3671000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3671000 ps
+CPU Time:      0.530 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:30 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_addr_low_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_addr_low_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_addr_low_test_iter1_seed5678.vdb -l sim_spi_addr_low_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_addr_low_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3671000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3671000 ps
+CPU Time:      0.490 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:31 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_bad_range_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_bad_range_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_bad_range_test_iter1_seed1234.vdb -l sim_spi_bad_range_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_bad_range_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3511000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3511000 ps
+CPU Time:      0.440 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:28 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_bad_range_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_bad_range_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_bad_range_test_iter1_seed5678.vdb -l sim_spi_bad_range_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_bad_range_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3511000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3511000 ps
+CPU Time:      0.410 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:29 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_host_contention_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_host_contention_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_host_contention_test_iter1_seed1234.vdb -l sim_spi_host_contention_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_host_contention_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2316000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2316000 ps
+CPU Time:      0.440 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:27 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_host_contention_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_host_contention_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_host_contention_test_iter1_seed5678.vdb -l sim_spi_host_contention_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_host_contention_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2316000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2316000 ps
+CPU Time:      0.410 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:28 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_host_switch_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_host_switch_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_host_switch_test_iter1_seed1234.vdb -l sim_spi_host_switch_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_host_switch_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3051000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3051000 ps
+CPU Time:      0.460 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:25 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_host_switch_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_host_switch_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_host_switch_test_iter1_seed5678.vdb -l sim_spi_host_switch_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_host_switch_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3051000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3051000 ps
+CPU Time:      0.430 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:26 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_illegal_opcode_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_illegal_opcode_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_illegal_opcode_test_iter1_seed1234.vdb -l sim_spi_illegal_opcode_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[566000][SB] Read length mismatch exp=2 got=0 @0x000010
+==== TEST spi_illegal_opcode_test FAILED: 1 errors (SB=1, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2061000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2061000 ps
+CPU Time:      0.420 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:26 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_illegal_opcode_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_illegal_opcode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_illegal_opcode_test_iter1_seed5678.vdb -l sim_spi_illegal_opcode_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[566000][SB] Read length mismatch exp=2 got=0 @0x000010
+==== TEST spi_illegal_opcode_test FAILED: 1 errors (SB=1, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2061000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2061000 ps
+CPU Time:      0.410 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:27 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_main_mode_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_main_mode_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_main_mode_test_iter1_seed1234.vdb -l sim_spi_main_mode_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_main_mode_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              6511000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 6511000 ps
+CPU Time:      0.490 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:18 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_main_mode_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_main_mode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_main_mode_test_iter1_seed5678.vdb -l sim_spi_main_mode_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_main_mode_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              6511000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 6511000 ps
+CPU Time:      0.520 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:19 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_overlap_range_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_overlap_range_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_overlap_range_test_iter1_seed1234.vdb -l sim_spi_overlap_range_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_overlap_range_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              5201000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5201000 ps
+CPU Time:      0.450 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:29 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_overlap_range_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_overlap_range_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_overlap_range_test_iter1_seed5678.vdb -l sim_spi_overlap_range_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_overlap_range_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              5201000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5201000 ps
+CPU Time:      0.580 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:30 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_host_mode_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_host_mode_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_host_mode_test_iter1_seed1234.vdb -l sim_spi_random_host_mode_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2476000][SB] Read data mismatch @0 exp=c0 got=df addr=0x00063f
+[2476000][SB] Read data mismatch @1 exp=bf got=de addr=0x00063f
+[6226000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x000d20 len=2 from=secondary)
+[6226000][SB] Read data mismatch @0 exp=20 got=10 addr=0x000d20
+[6226000][SB] Read data mismatch @1 exp=21 got=0f addr=0x000d20
+==== TEST spi_random_host_mode_test FAILED: 5 errors (SB=5, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7231000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7231000 ps
+CPU Time:      0.550 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:36 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_host_mode_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_host_mode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_host_mode_test_iter1_seed5678.vdb -l sim_spi_random_host_mode_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1726000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x00064d len=2 from=secondary)
+[1726000][SB] Read data mismatch @0 exp=b2 got=07 addr=0x00064d
+[1726000][SB] Read data mismatch @1 exp=b1 got=08 addr=0x00064d
+[3976000][SB] Read data mismatch @0 exp=bc got=0a addr=0x000243
+[3976000][SB] Read data mismatch @1 exp=bb got=09 addr=0x000243
+[4726000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x0007f1 len=2 from=secondary)
+[4726000][SB] Read data mismatch @0 exp=0e got=8f addr=0x0007f1
+[4726000][SB] Read data mismatch @1 exp=0d got=90 addr=0x0007f1
+[4726000][SB] Read data mismatch @0 exp=0a got=70 addr=0x0009f5
+[4726000][SB] Read data mismatch @1 exp=09 got=6f addr=0x0009f5
+==== TEST spi_random_host_mode_test FAILED: 10 errors (SB=10, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7231000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7231000 ps
+CPU Time:      0.560 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:37 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_host_mode_test_iter2_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_host_mode_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_host_mode_test_iter2_seed1234.vdb -l sim_spi_random_host_mode_test_iter2_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2476000][SB] Read data mismatch @0 exp=c0 got=df addr=0x00063f
+[2476000][SB] Read data mismatch @1 exp=bf got=de addr=0x00063f
+[6226000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x000d20 len=2 from=secondary)
+[6226000][SB] Read data mismatch @0 exp=20 got=10 addr=0x000d20
+[6226000][SB] Read data mismatch @1 exp=21 got=0f addr=0x000d20
+==== TEST spi_random_host_mode_test FAILED: 5 errors (SB=5, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7231000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7231000 ps
+CPU Time:      0.580 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:37 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_host_mode_test_iter2_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_host_mode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_host_mode_test_iter2_seed5678.vdb -l sim_spi_random_host_mode_test_iter2_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1726000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x00064d len=2 from=secondary)
+[1726000][SB] Read data mismatch @0 exp=b2 got=07 addr=0x00064d
+[1726000][SB] Read data mismatch @1 exp=b1 got=08 addr=0x00064d
+[3976000][SB] Read data mismatch @0 exp=bc got=0a addr=0x000243
+[3976000][SB] Read data mismatch @1 exp=bb got=09 addr=0x000243
+[4726000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x0007f1 len=2 from=secondary)
+[4726000][SB] Read data mismatch @0 exp=0e got=8f addr=0x0007f1
+[4726000][SB] Read data mismatch @1 exp=0d got=90 addr=0x0007f1
+[4726000][SB] Read data mismatch @0 exp=0a got=70 addr=0x0009f5
+[4726000][SB] Read data mismatch @1 exp=09 got=6f addr=0x0009f5
+==== TEST spi_random_host_mode_test FAILED: 10 errors (SB=10, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7231000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7231000 ps
+CPU Time:      0.590 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:38 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_rw_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_rw_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_rw_test_iter1_seed1234.vdb -l sim_spi_random_rw_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2706000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x001a55 len=1 from=main)
+[2706000][SB] Read length mismatch exp=1 got=3 @0x001a55
+[3121000][SB] Write payload mismatch idx0 exp=3a got=55 addr=0x002069
+[3121000][SB] Write payload mismatch idx1 exp=f1 got=xx addr=0x002069
+[3121000][SB] Write payload mismatch idx2 exp=1b got=xx addr=0x002069
+[3121000][SB] Write payload mismatch idx3 exp=70 got=xx addr=0x002069
+[3776000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00116c len=1 from=main)
+[3776000][SB] Read length mismatch exp=1 got=4 @0x00116c
+[4191000][SB] Read length mismatch exp=4 got=1 @0x0019ef
+[4846000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000913 len=2 from=main)
+[4846000][SB] Write payload mismatch idx0 exp=b9 got=10 addr=0x000913
+[4846000][SB] Write payload mismatch idx1 exp=2f got=0f addr=0x000913
+[5341000][SB] Write payload mismatch idx0 exp=64 got=b9 addr=0x001154
+[5341000][SB] Write payload mismatch idx1 exp=86 got=2f addr=0x001154
+[5341000][SB] Write payload mismatch idx2 exp=00 got=xx addr=0x001154
+==== TEST spi_random_rw_test FAILED: 15 errors (SB=15, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              6916000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 6916000 ps
+CPU Time:      0.570 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:34 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_rw_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_rw_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_rw_test_iter1_seed5678.vdb -l sim_spi_random_rw_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2866000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x000d31 len=4 from=main)
+[2866000][SB] Read length mismatch exp=4 got=3 @0x000d31
+[3521000][SB] Write payload mismatch idx0 exp=36 got=31 addr=0x001009
+[3521000][SB] Write payload mismatch idx1 exp=64 got=32 addr=0x001009
+[3521000][SB] Write payload mismatch idx2 exp=72 got=33 addr=0x001009
+[3521000][SB] Write payload mismatch idx3 exp=f3 got=34 addr=0x001009
+[4176000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000840 len=3 from=main)
+[4176000][SB] Write payload mismatch idx0 exp=8f got=36 addr=0x000840
+[4176000][SB] Write payload mismatch idx1 exp=55 got=64 addr=0x000840
+[4176000][SB] Write payload mismatch idx2 exp=6f got=72 addr=0x000840
+[4751000][SB] Read length mismatch exp=4 got=3 @0x002808
+[5406000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002e83 len=2 from=main)
+[5406000][SB] Write payload mismatch idx0 exp=27 got=f7 addr=0x002e83
+[5406000][SB] Write payload mismatch idx1 exp=a8 got=f6 addr=0x002e83
+[5901000][SB] Read length mismatch exp=4 got=2 @0x0004f0
+==== TEST spi_random_rw_test FAILED: 15 errors (SB=15, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7556000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7556000 ps
+CPU Time:      0.480 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:34 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_rw_test_iter2_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_rw_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_rw_test_iter2_seed1234.vdb -l sim_spi_random_rw_test_iter2_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2706000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x001a55 len=1 from=main)
+[2706000][SB] Read length mismatch exp=1 got=3 @0x001a55
+[3121000][SB] Write payload mismatch idx0 exp=3a got=55 addr=0x002069
+[3121000][SB] Write payload mismatch idx1 exp=f1 got=xx addr=0x002069
+[3121000][SB] Write payload mismatch idx2 exp=1b got=xx addr=0x002069
+[3121000][SB] Write payload mismatch idx3 exp=70 got=xx addr=0x002069
+[3776000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00116c len=1 from=main)
+[3776000][SB] Read length mismatch exp=1 got=4 @0x00116c
+[4191000][SB] Read length mismatch exp=4 got=1 @0x0019ef
+[4846000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000913 len=2 from=main)
+[4846000][SB] Write payload mismatch idx0 exp=b9 got=10 addr=0x000913
+[4846000][SB] Write payload mismatch idx1 exp=2f got=0f addr=0x000913
+[5341000][SB] Write payload mismatch idx0 exp=64 got=b9 addr=0x001154
+[5341000][SB] Write payload mismatch idx1 exp=86 got=2f addr=0x001154
+[5341000][SB] Write payload mismatch idx2 exp=00 got=xx addr=0x001154
+==== TEST spi_random_rw_test FAILED: 15 errors (SB=15, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              6916000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 6916000 ps
+CPU Time:      0.430 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:35 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_random_rw_test_iter2_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_random_rw_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_random_rw_test_iter2_seed5678.vdb -l sim_spi_random_rw_test_iter2_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[2866000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x000d31 len=4 from=main)
+[2866000][SB] Read length mismatch exp=4 got=3 @0x000d31
+[3521000][SB] Write payload mismatch idx0 exp=36 got=31 addr=0x001009
+[3521000][SB] Write payload mismatch idx1 exp=64 got=32 addr=0x001009
+[3521000][SB] Write payload mismatch idx2 exp=72 got=33 addr=0x001009
+[3521000][SB] Write payload mismatch idx3 exp=f3 got=34 addr=0x001009
+[4176000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000840 len=3 from=main)
+[4176000][SB] Write payload mismatch idx0 exp=8f got=36 addr=0x000840
+[4176000][SB] Write payload mismatch idx1 exp=55 got=64 addr=0x000840
+[4176000][SB] Write payload mismatch idx2 exp=6f got=72 addr=0x000840
+[4751000][SB] Read length mismatch exp=4 got=3 @0x002808
+[5406000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002e83 len=2 from=main)
+[5406000][SB] Write payload mismatch idx0 exp=27 got=f7 addr=0x002e83
+[5406000][SB] Write payload mismatch idx1 exp=a8 got=f6 addr=0x002e83
+[5901000][SB] Read length mismatch exp=4 got=2 @0x0004f0
+==== TEST spi_random_rw_test FAILED: 15 errors (SB=15, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              7556000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7556000 ps
+CPU Time:      0.440 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:35 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_reg_rw_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_reg_rw_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_reg_rw_test_iter1_seed1234.vdb -l sim_spi_reg_rw_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_reg_rw_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             11176000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11176000 ps
+CPU Time:      0.510 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:17 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_reg_rw_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_reg_rw_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_reg_rw_test_iter1_seed5678.vdb -l sim_spi_reg_rw_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_reg_rw_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             11176000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11176000 ps
+CPU Time:      0.560 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:18 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_reset_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_reset_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_reset_test_iter1_seed1234.vdb -l sim_spi_reset_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[486000][TEST spi_reset_test] MGMT read mismatch @0x00 exp=00 got=ff
+[741000][TEST spi_reset_test] MGMT read mismatch @0x01 exp=00 got=ff
+[996000][TEST spi_reset_test] MGMT read mismatch @0x02 exp=00 got=ff
+[2016000][TEST spi_reset_test] MGMT read mismatch @0x06 exp=00 got=ff
+[2271000][TEST spi_reset_test] MGMT read mismatch @0x07 exp=00 got=ff
+[2526000][TEST spi_reset_test] MGMT read mismatch @0x08 exp=00 got=ff
+[7571000][TEST spi_reset_test] MGMT read mismatch @0x00 exp=00 got=ff
+[7826000][TEST spi_reset_test] MGMT read mismatch @0x01 exp=00 got=ff
+[8081000][TEST spi_reset_test] MGMT read mismatch @0x02 exp=00 got=ff
+[9101000][TEST spi_reset_test] MGMT read mismatch @0x06 exp=00 got=ff
+[9356000][TEST spi_reset_test] MGMT read mismatch @0x07 exp=00 got=ff
+[9611000][TEST spi_reset_test] MGMT read mismatch @0x08 exp=00 got=ff
+==== TEST spi_reset_test FAILED: 12 errors (SB=0, TEST=12) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             11886000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11886000 ps
+CPU Time:      0.520 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:16 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_reset_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_reset_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_reset_test_iter1_seed5678.vdb -l sim_spi_reset_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[486000][TEST spi_reset_test] MGMT read mismatch @0x00 exp=00 got=ff
+[741000][TEST spi_reset_test] MGMT read mismatch @0x01 exp=00 got=ff
+[996000][TEST spi_reset_test] MGMT read mismatch @0x02 exp=00 got=ff
+[2016000][TEST spi_reset_test] MGMT read mismatch @0x06 exp=00 got=ff
+[2271000][TEST spi_reset_test] MGMT read mismatch @0x07 exp=00 got=ff
+[2526000][TEST spi_reset_test] MGMT read mismatch @0x08 exp=00 got=ff
+[7571000][TEST spi_reset_test] MGMT read mismatch @0x00 exp=00 got=ff
+[7826000][TEST spi_reset_test] MGMT read mismatch @0x01 exp=00 got=ff
+[8081000][TEST spi_reset_test] MGMT read mismatch @0x02 exp=00 got=ff
+[9101000][TEST spi_reset_test] MGMT read mismatch @0x06 exp=00 got=ff
+[9356000][TEST spi_reset_test] MGMT read mismatch @0x07 exp=00 got=ff
+[9611000][TEST spi_reset_test] MGMT read mismatch @0x08 exp=00 got=ff
+==== TEST spi_reset_test FAILED: 12 errors (SB=0, TEST=12) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             11886000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11886000 ps
+CPU Time:      0.540 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:16 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_runtime_cfg_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_runtime_cfg_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_runtime_cfg_test_iter1_seed1234.vdb -l sim_spi_runtime_cfg_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1471000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000400 len=2 from=main)
+[1471000][SB] Read data mismatch @0 exp=ff got=00 addr=0x000400
+[1471000][SB] Read data mismatch @1 exp=fe got=01 addr=0x000400
+==== TEST spi_runtime_cfg_test FAILED: 3 errors (SB=3, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2476000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2476000 ps
+CPU Time:      0.570 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:33 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_runtime_cfg_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_runtime_cfg_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_runtime_cfg_test_iter1_seed5678.vdb -l sim_spi_runtime_cfg_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1471000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000400 len=2 from=main)
+[1471000][SB] Read data mismatch @0 exp=ff got=00 addr=0x000400
+[1471000][SB] Read data mismatch @1 exp=fe got=01 addr=0x000400
+==== TEST spi_runtime_cfg_test FAILED: 3 errors (SB=3, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2476000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2476000 ps
+CPU Time:      0.530 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:33 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_secondary_mode_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_secondary_mode_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_secondary_mode_test_iter1_seed1234.vdb -l sim_spi_secondary_mode_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1136000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000200 len=4 from=main)
+[1136000][SB] Read data mismatch @0 exp=ff got=00 addr=0x000200
+[1136000][SB] Read data mismatch @1 exp=fe got=01 addr=0x000200
+[1136000][SB] Read data mismatch @2 exp=fd got=02 addr=0x000200
+[1136000][SB] Read data mismatch @3 exp=fc got=03 addr=0x000200
+[1631000][SB] Flash select mismatch: expected 1 got 0 (WRITE cmd=0x02 addr=0x000210 len=2 from=main)
+[2126000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000210 len=2 from=main)
+==== TEST spi_secondary_mode_test FAILED: 7 errors (SB=7, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3131000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3131000 ps
+CPU Time:      0.440 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:19 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_secondary_mode_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_secondary_mode_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_secondary_mode_test_iter1_seed5678.vdb -l sim_spi_secondary_mode_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1136000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000200 len=4 from=main)
+[1136000][SB] Read data mismatch @0 exp=ff got=00 addr=0x000200
+[1136000][SB] Read data mismatch @1 exp=fe got=01 addr=0x000200
+[1136000][SB] Read data mismatch @2 exp=fd got=02 addr=0x000200
+[1136000][SB] Read data mismatch @3 exp=fc got=03 addr=0x000200
+[1631000][SB] Flash select mismatch: expected 1 got 0 (WRITE cmd=0x02 addr=0x000210 len=2 from=main)
+[2126000][SB] Flash select mismatch: expected 1 got 0 ( READ cmd=0x03 addr=0x000210 len=2 from=main)
+==== TEST spi_secondary_mode_test FAILED: 7 errors (SB=7, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3131000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3131000 ps
+CPU Time:      0.540 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:20 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_default_select_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_default_select_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_default_select_test_iter1_seed1234.vdb -l sim_spi_share_default_select_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_default_select_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3591000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3591000 ps
+CPU Time:      0.540 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:23 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_default_select_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_default_select_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_default_select_test_iter1_seed5678.vdb -l sim_spi_share_default_select_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_default_select_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3591000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3591000 ps
+CPU Time:      0.480 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:24 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_default_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_default_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_default_test_iter1_seed1234.vdb -l sim_spi_share_default_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_default_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2716000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2716000 ps
+CPU Time:      0.420 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:20 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_default_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_default_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_default_test_iter1_seed5678.vdb -l sim_spi_share_default_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_default_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2716000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2716000 ps
+CPU Time:      0.450 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:21 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_range0_main_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_range0_main_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_range0_main_test_iter1_seed1234.vdb -l sim_spi_share_range0_main_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_range0_main_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3671000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3671000 ps
+CPU Time:      0.460 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:21 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_range0_main_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_range0_main_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_range0_main_test_iter1_seed5678.vdb -l sim_spi_share_range0_main_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_range0_main_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3671000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3671000 ps
+CPU Time:      0.450 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:22 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_range1_secondary_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_range1_secondary_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_range1_secondary_test_iter1_seed1234.vdb -l sim_spi_share_range1_secondary_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_range1_secondary_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3751000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3751000 ps
+CPU Time:      0.410 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:22 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_range1_secondary_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_range1_secondary_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_range1_secondary_test_iter1_seed5678.vdb -l sim_spi_share_range1_secondary_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_range1_secondary_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              3751000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3751000 ps
+CPU Time:      0.540 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:23 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_write_safety_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_write_safety_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_write_safety_test_iter1_seed1234.vdb -l sim_spi_share_write_safety_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_write_safety_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2476000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2476000 ps
+CPU Time:      0.500 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:24 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_share_write_safety_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_share_write_safety_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_share_write_safety_test_iter1_seed5678.vdb -l sim_spi_share_write_safety_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+==== TEST spi_share_write_safety_test PASSED ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time              2476000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2476000 ps
+CPU Time:      0.440 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:25 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_stress_test_iter1_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_stress_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_stress_test_iter1_seed1234.vdb -l sim_spi_stress_test_iter1_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[3826000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002186 len=5 from=main)
+[3826000][SB] Write payload mismatch idx0 exp=3c got=fa addr=0x002186
+[3826000][SB] Write payload mismatch idx1 exp=13 got=f9 addr=0x002186
+[3826000][SB] Write payload mismatch idx2 exp=fd got=f8 addr=0x002186
+[3826000][SB] Write payload mismatch idx3 exp=b9 got=f7 addr=0x002186
+[3826000][SB] Write payload mismatch idx4 exp=2f got=f6 addr=0x002186
+[4561000][SB] Write payload mismatch idx0 exp=00 got=3c addr=0x007864
+[4561000][SB] Write payload mismatch idx1 exp=d6 got=13 addr=0x007864
+[4561000][SB] Write payload mismatch idx2 exp=e9 got=fd addr=0x007864
+[4561000][SB] Write payload mismatch idx3 exp=7d got=b9 addr=0x007864
+[4561000][SB] Write payload mismatch idx4 exp=60 got=2f addr=0x007864
+[4561000][SB] Write payload mismatch idx5 exp=e2 got=xx addr=0x007864
+[4561000][SB] Write payload mismatch idx6 exp=6e got=xx addr=0x007864
+[5456000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x002930 len=7 from=secondary)
+[5456000][SB] Read data mismatch @0 exp=30 got=00 addr=0x002930
+[5456000][SB] Read data mismatch @1 exp=31 got=d6 addr=0x002930
+[5456000][SB] Read data mismatch @2 exp=32 got=e9 addr=0x002930
+[5456000][SB] Read data mismatch @3 exp=33 got=7d addr=0x002930
+[5456000][SB] Read data mismatch @4 exp=34 got=60 addr=0x002930
+[5456000][SB] Read data mismatch @5 exp=35 got=e2 addr=0x002930
+[5456000][SB] Read data mismatch @6 exp=36 got=6e addr=0x002930
+[6351000][SB] Write payload mismatch idx0 exp=f9 got=00 addr=0x005ae0
+[6766000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000aef len=7 from=secondary)
+[6766000][SB] Write payload mismatch idx0 exp=65 got=00 addr=0x000aef
+[6766000][SB] Write payload mismatch idx1 exp=90 got=d6 addr=0x000aef
+[6766000][SB] Write payload mismatch idx2 exp=f0 got=e9 addr=0x000aef
+[6766000][SB] Write payload mismatch idx3 exp=b9 got=7d addr=0x000aef
+[6766000][SB] Write payload mismatch idx4 exp=f1 got=60 addr=0x000aef
+[6766000][SB] Write payload mismatch idx5 exp=2a got=e2 addr=0x000aef
+[6766000][SB] Write payload mismatch idx6 exp=10 got=6e addr=0x000aef
+[8236000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00f732 len=1 from=secondary)
+[8236000][SB] Write payload mismatch idx0 exp=ef got=fa addr=0x00f732
+[10451000][SB] Read length mismatch exp=2 got=5 @0x00dcf7
+[10451000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x004ac4 len=2 from=secondary)
+[10451000][SB] Write payload mismatch idx0 exp=16 got=84 addr=0x004ac4
+[10451000][SB] Write payload mismatch idx1 exp=1f got=83 addr=0x004ac4
+[12176000][SB] Read length mismatch exp=5 got=1 @0x00007b
+[12176000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00109d len=7 from=secondary)
+[12176000][SB] Read length mismatch exp=7 got=1 @0x00109d
+[14781000][SB] Read length mismatch exp=1 got=8 @0x00517e
+[14781000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x0001ec len=1 from=main)
+[14781000][SB] Write payload mismatch idx0 exp=31 got=24 addr=0x0001ec
+[16346000][SB] Read length mismatch exp=4 got=2 @0x0070f4
+[16346000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005986 len=7 from=secondary)
+[16346000][SB] Read length mismatch exp=7 got=2 @0x005986
+[16841000][SB] Read length mismatch exp=8 got=2 @0x00fbdb
+[16841000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005eb7 len=2 from=secondary)
+[16841000][SB] Read data mismatch @0 exp=b7 got=c8 addr=0x005eb7
+[16841000][SB] Read data mismatch @1 exp=b8 got=3b addr=0x005eb7
+[17416000][SB] Read length mismatch exp=1 got=3 @0x0043ad
+[17416000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00a8e0 len=2 from=main)
+[17416000][SB] Write payload mismatch idx0 exp=fc got=c4 addr=0x00a8e0
+[17416000][SB] Write payload mismatch idx1 exp=1c got=38 addr=0x00a8e0
+[18246000][SB] Write payload mismatch idx0 exp=c8 got=16 addr=0x005c24
+[18246000][SB] Write payload mismatch idx1 exp=3b got=xx addr=0x005c24
+[18246000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x006247 len=3 from=main)
+[18246000][SB] Write payload mismatch idx0 exp=c4 got=e9 addr=0x006247
+[18246000][SB] Write payload mismatch idx1 exp=38 got=xx addr=0x006247
+[18246000][SB] Write payload mismatch idx2 exp=39 got=xx addr=0x006247
+[19396000][SB] Read length mismatch exp=1 got=5 @0x009723
+[19396000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x006216 len=1 from=main)
+[19396000][SB] Read length mismatch exp=1 got=5 @0x006216
+[21841000][SB] Read length mismatch exp=1 got=6 @0x000c62
+[21841000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x0023df len=5 from=main)
+[21841000][SB] Read length mismatch exp=5 got=6 @0x0023df
+[27306000][SB] Read length mismatch exp=5 got=8 @0x0032fd
+[27306000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00b690 len=6 from=secondary)
+[27306000][SB] Write payload mismatch idx0 exp=bf got=ab addr=0x00b690
+[27306000][SB] Write payload mismatch idx1 exp=16 got=f6 addr=0x00b690
+[27306000][SB] Write payload mismatch idx2 exp=06 got=9a addr=0x00b690
+[27306000][SB] Write payload mismatch idx3 exp=e4 got=42 addr=0x00b690
+[27306000][SB] Write payload mismatch idx4 exp=98 got=0a addr=0x00b690
+[27306000][SB] Write payload mismatch idx5 exp=b4 got=92 addr=0x00b690
+[28376000][SB] Read length mismatch exp=6 got=4 @0x00915f
+[28376000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x007607 len=5 from=secondary)
+[28376000][SB] Read length mismatch exp=5 got=4 @0x007607
+[30611000][SB] Read length mismatch exp=7 got=1 @0x00ae46
+[30611000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00ddd6 len=2 from=secondary)
+[30611000][SB] Write payload mismatch idx0 exp=6c got=13 addr=0x00ddd6
+[30611000][SB] Write payload mismatch idx1 exp=db got=xx addr=0x00ddd6
+[31426000][SB] Write payload mismatch idx0 exp=ca got=14 addr=0x000fdd
+[31426000][SB] Write payload mismatch idx1 exp=b5 got=fe addr=0x000fdd
+[31426000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00318e len=8 from=secondary)
+[31426000][SB] Read length mismatch exp=8 got=6 @0x00318e
+==== TEST spi_stress_test FAILED: 84 errors (SB=84, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             34716000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 34716000 ps
+CPU Time:      0.550 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:39 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_stress_test_iter1_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_stress_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_stress_test_iter1_seed5678.vdb -l sim_spi_stress_test_iter1_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1951000][SB] Write payload mismatch idx0 exp=98 got=b7 addr=0x001d46
+[1951000][SB] Write payload mismatch idx1 exp=84 got=b8 addr=0x001d46
+[1951000][SB] Write payload mismatch idx2 exp=57 got=b9 addr=0x001d46
+[1951000][SB] Write payload mismatch idx3 exp=91 got=ba addr=0x001d46
+[1951000][SB] Write payload mismatch idx4 exp=c2 got=xx addr=0x001d46
+[1951000][SB] Write payload mismatch idx5 exp=07 got=xx addr=0x001d46
+[1951000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x0073b7 len=4 from=main)
+[1951000][SB] Read data mismatch @0 exp=b7 got=48 addr=0x0073b7
+[1951000][SB] Read data mismatch @1 exp=b8 got=47 addr=0x0073b7
+[1951000][SB] Read data mismatch @2 exp=b9 got=46 addr=0x0073b7
+[1951000][SB] Read data mismatch @3 exp=ba got=45 addr=0x0073b7
+[4986000][SB] Read length mismatch exp=4 got=5 @0x009dd9
+[4986000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00fe1a len=4 from=secondary)
+[4986000][SB] Read length mismatch exp=4 got=5 @0x00fe1a
+[6216000][SB] Write payload mismatch idx0 exp=ea got=f4 addr=0x00579e
+[6216000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005817 len=1 from=secondary)
+[6216000][SB] Read length mismatch exp=1 got=5 @0x005817
+[7686000][SB] Read length mismatch exp=5 got=1 @0x0052d6
+[7686000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00187f len=2 from=secondary)
+[7686000][SB] Write payload mismatch idx0 exp=50 got=6b addr=0x00187f
+[7686000][SB] Write payload mismatch idx1 exp=ec got=xx addr=0x00187f
+[10131000][SB] Read data mismatch @0 exp=f4 got=60 addr=0x0023f4
+[10131000][SB] Read data mismatch @1 exp=f5 got=61 addr=0x0023f4
+[10131000][SB] Read data mismatch @2 exp=f6 got=62 addr=0x0023f4
+[10131000][SB] Read data mismatch @3 exp=f7 got=63 addr=0x0023f4
+[10131000][SB] Read data mismatch @4 exp=f8 got=64 addr=0x0023f4
+[10131000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00a255 len=8 from=secondary)
+[10131000][SB] Read length mismatch exp=8 got=5 @0x00a255
+[12431000][SB] Read length mismatch exp=1 got=4 @0x00df94
+[12431000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x003094 len=8 from=secondary)
+[12431000][SB] Write payload mismatch idx0 exp=ee got=dd addr=0x003094
+[12431000][SB] Write payload mismatch idx1 exp=f5 got=f4 addr=0x003094
+[12431000][SB] Write payload mismatch idx2 exp=fe got=f6 addr=0x003094
+[12431000][SB] Write payload mismatch idx3 exp=6a got=2a addr=0x003094
+[12431000][SB] Write payload mismatch idx4 exp=39 got=xx addr=0x003094
+[12431000][SB] Write payload mismatch idx5 exp=13 got=xx addr=0x003094
+[12431000][SB] Write payload mismatch idx6 exp=38 got=xx addr=0x003094
+[12431000][SB] Write payload mismatch idx7 exp=d7 got=xx addr=0x003094
+[13166000][SB] Read data mismatch @0 exp=2c got=7e addr=0x008a2c
+[13166000][SB] Read data mismatch @1 exp=2d got=12 addr=0x008a2c
+[13166000][SB] Read data mismatch @2 exp=2e got=bc addr=0x008a2c
+[13166000][SB] Read data mismatch @3 exp=2f got=f7 addr=0x008a2c
+[13166000][SB] Read data mismatch @4 exp=30 got=ac addr=0x008a2c
+[13166000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00e260 len=5 from=main)
+[13166000][SB] Read data mismatch @0 exp=60 got=7e addr=0x00e260
+[13166000][SB] Read data mismatch @1 exp=61 got=12 addr=0x00e260
+[13166000][SB] Read data mismatch @2 exp=62 got=bc addr=0x00e260
+[13166000][SB] Read data mismatch @3 exp=63 got=f7 addr=0x00e260
+[13166000][SB] Read data mismatch @4 exp=64 got=ac addr=0x00e260
+[14556000][SB] Read length mismatch exp=1 got=5 @0x00d754
+[14556000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00b720 len=3 from=secondary)
+[14556000][SB] Read length mismatch exp=3 got=5 @0x00b720
+[16346000][SB] Read length mismatch exp=2 got=8 @0x001632
+[16346000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x003bf8 len=4 from=main)
+[16346000][SB] Write payload mismatch idx0 exp=dd got=a8 addr=0x003bf8
+[16346000][SB] Write payload mismatch idx1 exp=f4 got=7f addr=0x003bf8
+[16346000][SB] Write payload mismatch idx2 exp=f6 got=d5 addr=0x003bf8
+[16346000][SB] Write payload mismatch idx3 exp=2a got=1d addr=0x003bf8
+[17321000][SB] Write payload mismatch idx0 exp=7e got=b9 addr=0x00a82a
+[17321000][SB] Write payload mismatch idx1 exp=12 got=ba addr=0x00a82a
+[17321000][SB] Write payload mismatch idx2 exp=bc got=bb addr=0x00a82a
+[17321000][SB] Write payload mismatch idx3 exp=f7 got=bc addr=0x00a82a
+[17321000][SB] Write payload mismatch idx4 exp=ac got=bd addr=0x00a82a
+[17321000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00d819 len=3 from=secondary)
+[17321000][SB] Write payload mismatch idx0 exp=58 got=46 addr=0x00d819
+[17321000][SB] Write payload mismatch idx1 exp=7a got=45 addr=0x00d819
+[17321000][SB] Write payload mismatch idx2 exp=ec got=44 addr=0x00d819
+[18296000][SB] Read length mismatch exp=5 got=7 @0x004744
+[18296000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00488f len=6 from=secondary)
+[18296000][SB] Write payload mismatch idx0 exp=61 got=9e addr=0x00488f
+[18296000][SB] Write payload mismatch idx1 exp=ae got=9d addr=0x00488f
+[18296000][SB] Write payload mismatch idx2 exp=87 got=9c addr=0x00488f
+[18296000][SB] Write payload mismatch idx3 exp=ee got=9b addr=0x00488f
+[18296000][SB] Write payload mismatch idx4 exp=d3 got=9a addr=0x00488f
+[18296000][SB] Write payload mismatch idx5 exp=c3 got=99 addr=0x00488f
+[21156000][SB] Write payload mismatch idx0 exp=a8 got=09 addr=0x00166e
+[21156000][SB] Write payload mismatch idx1 exp=7f got=bf addr=0x00166e
+[21156000][SB] Write payload mismatch idx2 exp=d5 got=b7 addr=0x00166e
+[21156000][SB] Write payload mismatch idx3 exp=1d got=80 addr=0x00166e
+[21156000][SB] Write payload mismatch idx4 exp=0d got=xx addr=0x00166e
+[21156000][SB] Write payload mismatch idx5 exp=3a got=xx addr=0x00166e
+[21156000][SB] Write payload mismatch idx6 exp=ad got=xx addr=0x00166e
+[21156000][SB] Write payload mismatch idx7 exp=e5 got=xx addr=0x00166e
+[21156000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00f1b9 len=7 from=main)
+[21156000][SB] Read length mismatch exp=7 got=4 @0x00f1b9
+[22211000][SB] Read length mismatch exp=7 got=8 @0x00b761
+[22211000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00bcf4 len=6 from=secondary)
+[22211000][SB] Write payload mismatch idx0 exp=b6 got=81 addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx1 exp=61 got=80 addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx2 exp=83 got=7f addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx3 exp=c5 got=7e addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx4 exp=3e got=7d addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx5 exp=70 got=7c addr=0x00bcf4
+[23186000][SB] Write payload mismatch idx0 exp=f6 got=4d addr=0x005688
+[23186000][SB] Write payload mismatch idx1 exp=b0 got=4e addr=0x005688
+[23186000][SB] Write payload mismatch idx2 exp=b3 got=4f addr=0x005688
+[23186000][SB] Write payload mismatch idx3 exp=1a got=50 addr=0x005688
+[23186000][SB] Write payload mismatch idx4 exp=7f got=51 addr=0x005688
+[23186000][SB] Write payload mismatch idx5 exp=ad got=52 addr=0x005688
+[23186000][SB] Write payload mismatch idx6 exp=e1 got=53 addr=0x005688
+[23186000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00be73 len=2 from=secondary)
+[23186000][SB] Write payload mismatch idx0 exp=8b got=b2 addr=0x00be73
+[23186000][SB] Write payload mismatch idx1 exp=f0 got=b1 addr=0x00be73
+[23921000][SB] Write payload mismatch idx0 exp=09 got=b8 addr=0x00034f
+[23921000][SB] Write payload mismatch idx1 exp=bf got=b9 addr=0x00034f
+[23921000][SB] Write payload mismatch idx2 exp=b7 got=ba addr=0x00034f
+[23921000][SB] Write payload mismatch idx3 exp=80 got=bb addr=0x00034f
+[23921000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00a67e len=8 from=main)
+[23921000][SB] Read length mismatch exp=8 got=4 @0x00a67e
+[24416000][SB] Read length mismatch exp=7 got=2 @0x00314d
+[24416000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x0077b8 len=4 from=main)
+[24416000][SB] Read length mismatch exp=4 got=2 @0x0077b8
+[25071000][SB] Write payload mismatch idx0 exp=8f got=87 addr=0x00e8d3
+[25071000][SB] Write payload mismatch idx1 exp=6b got=be addr=0x00e8d3
+[25071000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00eeaa len=4 from=main)
+[25491000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x003694 len=4 from=main)
+[25491000][SB] Write payload mismatch idx0 exp=91 got=bb addr=0x003694
+[25491000][SB] Write payload mismatch idx1 exp=0e got=xx addr=0x003694
+[25491000][SB] Write payload mismatch idx2 exp=54 got=xx addr=0x003694
+[25491000][SB] Write payload mismatch idx3 exp=23 got=xx addr=0x003694
+[26146000][SB] Read length mismatch exp=6 got=4 @0x0033df
+[26961000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00bebd len=3 from=secondary)
+[26961000][SB] Read length mismatch exp=3 got=4 @0x00bebd
+[29976000][SB] Write payload mismatch idx0 exp=c1 got=ee addr=0x006f22
+[29976000][SB] Write payload mismatch idx1 exp=0e got=7b addr=0x006f22
+[29976000][SB] Write payload mismatch idx2 exp=62 got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx3 exp=25 got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx4 exp=eb got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx5 exp=61 got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx6 exp=6d got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx7 exp=87 got=xx addr=0x006f22
+[29976000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x004bd2 len=8 from=secondary)
+[29976000][SB] Write payload mismatch idx0 exp=16 got=ee addr=0x004bd2
+[29976000][SB] Write payload mismatch idx1 exp=2b got=7b addr=0x004bd2
+[29976000][SB] Write payload mismatch idx2 exp=f4 got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx3 exp=99 got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx4 exp=9e got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx5 exp=2d got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx6 exp=58 got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx7 exp=79 got=xx addr=0x004bd2
+[30951000][SB] Write payload mismatch idx0 exp=ee got=2e addr=0x003dd5
+[30951000][SB] Write payload mismatch idx1 exp=7b got=2f addr=0x003dd5
+[30951000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00342e len=7 from=main)
+[30951000][SB] Read data mismatch @0 exp=2e got=d1 addr=0x00342e
+[30951000][SB] Read data mismatch @1 exp=2f got=d0 addr=0x00342e
+[30951000][SB] Read data mismatch @2 exp=30 got=cf addr=0x00342e
+[30951000][SB] Read data mismatch @3 exp=31 got=ce addr=0x00342e
+[30951000][SB] Read data mismatch @4 exp=32 got=cd addr=0x00342e
+[30951000][SB] Read data mismatch @5 exp=33 got=cc addr=0x00342e
+[30951000][SB] Read data mismatch @6 exp=34 got=cb addr=0x00342e
+[31851000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x009688 len=1 from=main)
+[31851000][SB] Write payload mismatch idx0 exp=13 got=20 addr=0x009688
+[32266000][SB] Write payload mismatch idx0 exp=00 got=13 addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx1 exp=f4 got=xx addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx2 exp=4c got=xx addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx3 exp=12 got=xx addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx4 exp=88 got=xx addr=0x00e4ec
+[33001000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002076 len=8 from=secondary)
+[33001000][SB] Write payload mismatch idx0 exp=44 got=00 addr=0x002076
+[33001000][SB] Write payload mismatch idx1 exp=f1 got=f4 addr=0x002076
+[33001000][SB] Write payload mismatch idx2 exp=52 got=4c addr=0x002076
+[33001000][SB] Write payload mismatch idx3 exp=2e got=12 addr=0x002076
+[33001000][SB] Write payload mismatch idx4 exp=05 got=88 addr=0x002076
+[33001000][SB] Write payload mismatch idx5 exp=52 got=xx addr=0x002076
+[33001000][SB] Write payload mismatch idx6 exp=4c got=xx addr=0x002076
+[33001000][SB] Write payload mismatch idx7 exp=f2 got=xx addr=0x002076
+[33976000][SB] Write payload mismatch idx0 exp=36 got=00 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx1 exp=06 got=f4 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx2 exp=85 got=4c addr=0x0013ce
+[33976000][SB] Write payload mismatch idx3 exp=47 got=12 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx4 exp=07 got=88 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx5 exp=24 got=xx addr=0x0013ce
+[34791000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x005668 len=1 from=secondary)
+[34791000][SB] Write payload mismatch idx0 exp=b1 got=36 addr=0x005668
+[35206000][SB] Write payload mismatch idx0 exp=4a got=36 addr=0x00d110
+[35206000][SB] Write payload mismatch idx1 exp=4b got=06 addr=0x00d110
+[35206000][SB] Write payload mismatch idx2 exp=5b got=85 addr=0x00d110
+[35206000][SB] Write payload mismatch idx3 exp=e2 got=47 addr=0x00d110
+[35206000][SB] Write payload mismatch idx4 exp=97 got=07 addr=0x00d110
+[35206000][SB] Write payload mismatch idx5 exp=0b got=24 addr=0x00d110
+[35206000][SB] Write payload mismatch idx6 exp=91 got=xx addr=0x00d110
+[36101000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00fc97 len=8 from=main)
+[36101000][SB] Read length mismatch exp=8 got=6 @0x00fc97
+==== TEST spi_stress_test FAILED: 183 errors (SB=183, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             38076000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 38076000 ps
+CPU Time:      0.550 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:39 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_stress_test_iter2_seed1234.log ====
+
+Command: /home/runner/./simv +TEST=spi_stress_test +ntb_random_seed=1234 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_stress_test_iter2_seed1234.vdb -l sim_spi_stress_test_iter2_seed1234.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[3826000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002186 len=5 from=main)
+[3826000][SB] Write payload mismatch idx0 exp=3c got=fa addr=0x002186
+[3826000][SB] Write payload mismatch idx1 exp=13 got=f9 addr=0x002186
+[3826000][SB] Write payload mismatch idx2 exp=fd got=f8 addr=0x002186
+[3826000][SB] Write payload mismatch idx3 exp=b9 got=f7 addr=0x002186
+[3826000][SB] Write payload mismatch idx4 exp=2f got=f6 addr=0x002186
+[4561000][SB] Write payload mismatch idx0 exp=00 got=3c addr=0x007864
+[4561000][SB] Write payload mismatch idx1 exp=d6 got=13 addr=0x007864
+[4561000][SB] Write payload mismatch idx2 exp=e9 got=fd addr=0x007864
+[4561000][SB] Write payload mismatch idx3 exp=7d got=b9 addr=0x007864
+[4561000][SB] Write payload mismatch idx4 exp=60 got=2f addr=0x007864
+[4561000][SB] Write payload mismatch idx5 exp=e2 got=xx addr=0x007864
+[4561000][SB] Write payload mismatch idx6 exp=6e got=xx addr=0x007864
+[5456000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x002930 len=7 from=secondary)
+[5456000][SB] Read data mismatch @0 exp=30 got=00 addr=0x002930
+[5456000][SB] Read data mismatch @1 exp=31 got=d6 addr=0x002930
+[5456000][SB] Read data mismatch @2 exp=32 got=e9 addr=0x002930
+[5456000][SB] Read data mismatch @3 exp=33 got=7d addr=0x002930
+[5456000][SB] Read data mismatch @4 exp=34 got=60 addr=0x002930
+[5456000][SB] Read data mismatch @5 exp=35 got=e2 addr=0x002930
+[5456000][SB] Read data mismatch @6 exp=36 got=6e addr=0x002930
+[6351000][SB] Write payload mismatch idx0 exp=f9 got=00 addr=0x005ae0
+[6766000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x000aef len=7 from=secondary)
+[6766000][SB] Write payload mismatch idx0 exp=65 got=00 addr=0x000aef
+[6766000][SB] Write payload mismatch idx1 exp=90 got=d6 addr=0x000aef
+[6766000][SB] Write payload mismatch idx2 exp=f0 got=e9 addr=0x000aef
+[6766000][SB] Write payload mismatch idx3 exp=b9 got=7d addr=0x000aef
+[6766000][SB] Write payload mismatch idx4 exp=f1 got=60 addr=0x000aef
+[6766000][SB] Write payload mismatch idx5 exp=2a got=e2 addr=0x000aef
+[6766000][SB] Write payload mismatch idx6 exp=10 got=6e addr=0x000aef
+[8236000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00f732 len=1 from=secondary)
+[8236000][SB] Write payload mismatch idx0 exp=ef got=fa addr=0x00f732
+[10451000][SB] Read length mismatch exp=2 got=5 @0x00dcf7
+[10451000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x004ac4 len=2 from=secondary)
+[10451000][SB] Write payload mismatch idx0 exp=16 got=84 addr=0x004ac4
+[10451000][SB] Write payload mismatch idx1 exp=1f got=83 addr=0x004ac4
+[12176000][SB] Read length mismatch exp=5 got=1 @0x00007b
+[12176000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00109d len=7 from=secondary)
+[12176000][SB] Read length mismatch exp=7 got=1 @0x00109d
+[14781000][SB] Read length mismatch exp=1 got=8 @0x00517e
+[14781000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x0001ec len=1 from=main)
+[14781000][SB] Write payload mismatch idx0 exp=31 got=24 addr=0x0001ec
+[16346000][SB] Read length mismatch exp=4 got=2 @0x0070f4
+[16346000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005986 len=7 from=secondary)
+[16346000][SB] Read length mismatch exp=7 got=2 @0x005986
+[16841000][SB] Read length mismatch exp=8 got=2 @0x00fbdb
+[16841000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005eb7 len=2 from=secondary)
+[16841000][SB] Read data mismatch @0 exp=b7 got=c8 addr=0x005eb7
+[16841000][SB] Read data mismatch @1 exp=b8 got=3b addr=0x005eb7
+[17416000][SB] Read length mismatch exp=1 got=3 @0x0043ad
+[17416000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00a8e0 len=2 from=main)
+[17416000][SB] Write payload mismatch idx0 exp=fc got=c4 addr=0x00a8e0
+[17416000][SB] Write payload mismatch idx1 exp=1c got=38 addr=0x00a8e0
+[18246000][SB] Write payload mismatch idx0 exp=c8 got=16 addr=0x005c24
+[18246000][SB] Write payload mismatch idx1 exp=3b got=xx addr=0x005c24
+[18246000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x006247 len=3 from=main)
+[18246000][SB] Write payload mismatch idx0 exp=c4 got=e9 addr=0x006247
+[18246000][SB] Write payload mismatch idx1 exp=38 got=xx addr=0x006247
+[18246000][SB] Write payload mismatch idx2 exp=39 got=xx addr=0x006247
+[19396000][SB] Read length mismatch exp=1 got=5 @0x009723
+[19396000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x006216 len=1 from=main)
+[19396000][SB] Read length mismatch exp=1 got=5 @0x006216
+[21841000][SB] Read length mismatch exp=1 got=6 @0x000c62
+[21841000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x0023df len=5 from=main)
+[21841000][SB] Read length mismatch exp=5 got=6 @0x0023df
+[27306000][SB] Read length mismatch exp=5 got=8 @0x0032fd
+[27306000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00b690 len=6 from=secondary)
+[27306000][SB] Write payload mismatch idx0 exp=bf got=ab addr=0x00b690
+[27306000][SB] Write payload mismatch idx1 exp=16 got=f6 addr=0x00b690
+[27306000][SB] Write payload mismatch idx2 exp=06 got=9a addr=0x00b690
+[27306000][SB] Write payload mismatch idx3 exp=e4 got=42 addr=0x00b690
+[27306000][SB] Write payload mismatch idx4 exp=98 got=0a addr=0x00b690
+[27306000][SB] Write payload mismatch idx5 exp=b4 got=92 addr=0x00b690
+[28376000][SB] Read length mismatch exp=6 got=4 @0x00915f
+[28376000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x007607 len=5 from=secondary)
+[28376000][SB] Read length mismatch exp=5 got=4 @0x007607
+[30611000][SB] Read length mismatch exp=7 got=1 @0x00ae46
+[30611000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00ddd6 len=2 from=secondary)
+[30611000][SB] Write payload mismatch idx0 exp=6c got=13 addr=0x00ddd6
+[30611000][SB] Write payload mismatch idx1 exp=db got=xx addr=0x00ddd6
+[31426000][SB] Write payload mismatch idx0 exp=ca got=14 addr=0x000fdd
+[31426000][SB] Write payload mismatch idx1 exp=b5 got=fe addr=0x000fdd
+[31426000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00318e len=8 from=secondary)
+[31426000][SB] Read length mismatch exp=8 got=6 @0x00318e
+==== TEST spi_stress_test FAILED: 84 errors (SB=84, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             34716000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 34716000 ps
+CPU Time:      0.540 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:40 2025
+
+==== FILE: C:\Users\mahma\OneDrive - University of Central Florida\CourseWork\EEE4701\SPIFlashRaidVerificationTinyTapeout\db\sim_spi_stress_test_iter2_seed5678.log ====
+
+Command: /home/runner/./simv +TEST=spi_stress_test +ntb_random_seed=5678 +vcs+lic+wait -cm line+tgl+cond+fsm+branch+assert -cm_dir cov_runs/spi_stress_test_iter2_seed5678.vdb -l sim_spi_stress_test_iter2_seed5678.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Dec  5 03:31 2025
+[1951000][SB] Write payload mismatch idx0 exp=98 got=b7 addr=0x001d46
+[1951000][SB] Write payload mismatch idx1 exp=84 got=b8 addr=0x001d46
+[1951000][SB] Write payload mismatch idx2 exp=57 got=b9 addr=0x001d46
+[1951000][SB] Write payload mismatch idx3 exp=91 got=ba addr=0x001d46
+[1951000][SB] Write payload mismatch idx4 exp=c2 got=xx addr=0x001d46
+[1951000][SB] Write payload mismatch idx5 exp=07 got=xx addr=0x001d46
+[1951000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x0073b7 len=4 from=main)
+[1951000][SB] Read data mismatch @0 exp=b7 got=48 addr=0x0073b7
+[1951000][SB] Read data mismatch @1 exp=b8 got=47 addr=0x0073b7
+[1951000][SB] Read data mismatch @2 exp=b9 got=46 addr=0x0073b7
+[1951000][SB] Read data mismatch @3 exp=ba got=45 addr=0x0073b7
+[4986000][SB] Read length mismatch exp=4 got=5 @0x009dd9
+[4986000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00fe1a len=4 from=secondary)
+[4986000][SB] Read length mismatch exp=4 got=5 @0x00fe1a
+[6216000][SB] Write payload mismatch idx0 exp=ea got=f4 addr=0x00579e
+[6216000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x005817 len=1 from=secondary)
+[6216000][SB] Read length mismatch exp=1 got=5 @0x005817
+[7686000][SB] Read length mismatch exp=5 got=1 @0x0052d6
+[7686000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00187f len=2 from=secondary)
+[7686000][SB] Write payload mismatch idx0 exp=50 got=6b addr=0x00187f
+[7686000][SB] Write payload mismatch idx1 exp=ec got=xx addr=0x00187f
+[10131000][SB] Read data mismatch @0 exp=f4 got=60 addr=0x0023f4
+[10131000][SB] Read data mismatch @1 exp=f5 got=61 addr=0x0023f4
+[10131000][SB] Read data mismatch @2 exp=f6 got=62 addr=0x0023f4
+[10131000][SB] Read data mismatch @3 exp=f7 got=63 addr=0x0023f4
+[10131000][SB] Read data mismatch @4 exp=f8 got=64 addr=0x0023f4
+[10131000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00a255 len=8 from=secondary)
+[10131000][SB] Read length mismatch exp=8 got=5 @0x00a255
+[12431000][SB] Read length mismatch exp=1 got=4 @0x00df94
+[12431000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x003094 len=8 from=secondary)
+[12431000][SB] Write payload mismatch idx0 exp=ee got=dd addr=0x003094
+[12431000][SB] Write payload mismatch idx1 exp=f5 got=f4 addr=0x003094
+[12431000][SB] Write payload mismatch idx2 exp=fe got=f6 addr=0x003094
+[12431000][SB] Write payload mismatch idx3 exp=6a got=2a addr=0x003094
+[12431000][SB] Write payload mismatch idx4 exp=39 got=xx addr=0x003094
+[12431000][SB] Write payload mismatch idx5 exp=13 got=xx addr=0x003094
+[12431000][SB] Write payload mismatch idx6 exp=38 got=xx addr=0x003094
+[12431000][SB] Write payload mismatch idx7 exp=d7 got=xx addr=0x003094
+[13166000][SB] Read data mismatch @0 exp=2c got=7e addr=0x008a2c
+[13166000][SB] Read data mismatch @1 exp=2d got=12 addr=0x008a2c
+[13166000][SB] Read data mismatch @2 exp=2e got=bc addr=0x008a2c
+[13166000][SB] Read data mismatch @3 exp=2f got=f7 addr=0x008a2c
+[13166000][SB] Read data mismatch @4 exp=30 got=ac addr=0x008a2c
+[13166000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00e260 len=5 from=main)
+[13166000][SB] Read data mismatch @0 exp=60 got=7e addr=0x00e260
+[13166000][SB] Read data mismatch @1 exp=61 got=12 addr=0x00e260
+[13166000][SB] Read data mismatch @2 exp=62 got=bc addr=0x00e260
+[13166000][SB] Read data mismatch @3 exp=63 got=f7 addr=0x00e260
+[13166000][SB] Read data mismatch @4 exp=64 got=ac addr=0x00e260
+[14556000][SB] Read length mismatch exp=1 got=5 @0x00d754
+[14556000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00b720 len=3 from=secondary)
+[14556000][SB] Read length mismatch exp=3 got=5 @0x00b720
+[16346000][SB] Read length mismatch exp=2 got=8 @0x001632
+[16346000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x003bf8 len=4 from=main)
+[16346000][SB] Write payload mismatch idx0 exp=dd got=a8 addr=0x003bf8
+[16346000][SB] Write payload mismatch idx1 exp=f4 got=7f addr=0x003bf8
+[16346000][SB] Write payload mismatch idx2 exp=f6 got=d5 addr=0x003bf8
+[16346000][SB] Write payload mismatch idx3 exp=2a got=1d addr=0x003bf8
+[17321000][SB] Write payload mismatch idx0 exp=7e got=b9 addr=0x00a82a
+[17321000][SB] Write payload mismatch idx1 exp=12 got=ba addr=0x00a82a
+[17321000][SB] Write payload mismatch idx2 exp=bc got=bb addr=0x00a82a
+[17321000][SB] Write payload mismatch idx3 exp=f7 got=bc addr=0x00a82a
+[17321000][SB] Write payload mismatch idx4 exp=ac got=bd addr=0x00a82a
+[17321000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00d819 len=3 from=secondary)
+[17321000][SB] Write payload mismatch idx0 exp=58 got=46 addr=0x00d819
+[17321000][SB] Write payload mismatch idx1 exp=7a got=45 addr=0x00d819
+[17321000][SB] Write payload mismatch idx2 exp=ec got=44 addr=0x00d819
+[18296000][SB] Read length mismatch exp=5 got=7 @0x004744
+[18296000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00488f len=6 from=secondary)
+[18296000][SB] Write payload mismatch idx0 exp=61 got=9e addr=0x00488f
+[18296000][SB] Write payload mismatch idx1 exp=ae got=9d addr=0x00488f
+[18296000][SB] Write payload mismatch idx2 exp=87 got=9c addr=0x00488f
+[18296000][SB] Write payload mismatch idx3 exp=ee got=9b addr=0x00488f
+[18296000][SB] Write payload mismatch idx4 exp=d3 got=9a addr=0x00488f
+[18296000][SB] Write payload mismatch idx5 exp=c3 got=99 addr=0x00488f
+[21156000][SB] Write payload mismatch idx0 exp=a8 got=09 addr=0x00166e
+[21156000][SB] Write payload mismatch idx1 exp=7f got=bf addr=0x00166e
+[21156000][SB] Write payload mismatch idx2 exp=d5 got=b7 addr=0x00166e
+[21156000][SB] Write payload mismatch idx3 exp=1d got=80 addr=0x00166e
+[21156000][SB] Write payload mismatch idx4 exp=0d got=xx addr=0x00166e
+[21156000][SB] Write payload mismatch idx5 exp=3a got=xx addr=0x00166e
+[21156000][SB] Write payload mismatch idx6 exp=ad got=xx addr=0x00166e
+[21156000][SB] Write payload mismatch idx7 exp=e5 got=xx addr=0x00166e
+[21156000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00f1b9 len=7 from=main)
+[21156000][SB] Read length mismatch exp=7 got=4 @0x00f1b9
+[22211000][SB] Read length mismatch exp=7 got=8 @0x00b761
+[22211000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00bcf4 len=6 from=secondary)
+[22211000][SB] Write payload mismatch idx0 exp=b6 got=81 addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx1 exp=61 got=80 addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx2 exp=83 got=7f addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx3 exp=c5 got=7e addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx4 exp=3e got=7d addr=0x00bcf4
+[22211000][SB] Write payload mismatch idx5 exp=70 got=7c addr=0x00bcf4
+[23186000][SB] Write payload mismatch idx0 exp=f6 got=4d addr=0x005688
+[23186000][SB] Write payload mismatch idx1 exp=b0 got=4e addr=0x005688
+[23186000][SB] Write payload mismatch idx2 exp=b3 got=4f addr=0x005688
+[23186000][SB] Write payload mismatch idx3 exp=1a got=50 addr=0x005688
+[23186000][SB] Write payload mismatch idx4 exp=7f got=51 addr=0x005688
+[23186000][SB] Write payload mismatch idx5 exp=ad got=52 addr=0x005688
+[23186000][SB] Write payload mismatch idx6 exp=e1 got=53 addr=0x005688
+[23186000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00be73 len=2 from=secondary)
+[23186000][SB] Write payload mismatch idx0 exp=8b got=b2 addr=0x00be73
+[23186000][SB] Write payload mismatch idx1 exp=f0 got=b1 addr=0x00be73
+[23921000][SB] Write payload mismatch idx0 exp=09 got=b8 addr=0x00034f
+[23921000][SB] Write payload mismatch idx1 exp=bf got=b9 addr=0x00034f
+[23921000][SB] Write payload mismatch idx2 exp=b7 got=ba addr=0x00034f
+[23921000][SB] Write payload mismatch idx3 exp=80 got=bb addr=0x00034f
+[23921000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00a67e len=8 from=main)
+[23921000][SB] Read length mismatch exp=8 got=4 @0x00a67e
+[24416000][SB] Read length mismatch exp=7 got=2 @0x00314d
+[24416000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x0077b8 len=4 from=main)
+[24416000][SB] Read length mismatch exp=4 got=2 @0x0077b8
+[25071000][SB] Write payload mismatch idx0 exp=8f got=87 addr=0x00e8d3
+[25071000][SB] Write payload mismatch idx1 exp=6b got=be addr=0x00e8d3
+[25071000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x00eeaa len=4 from=main)
+[25491000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x003694 len=4 from=main)
+[25491000][SB] Write payload mismatch idx0 exp=91 got=bb addr=0x003694
+[25491000][SB] Write payload mismatch idx1 exp=0e got=xx addr=0x003694
+[25491000][SB] Write payload mismatch idx2 exp=54 got=xx addr=0x003694
+[25491000][SB] Write payload mismatch idx3 exp=23 got=xx addr=0x003694
+[26146000][SB] Read length mismatch exp=6 got=4 @0x0033df
+[26961000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00bebd len=3 from=secondary)
+[26961000][SB] Read length mismatch exp=3 got=4 @0x00bebd
+[29976000][SB] Write payload mismatch idx0 exp=c1 got=ee addr=0x006f22
+[29976000][SB] Write payload mismatch idx1 exp=0e got=7b addr=0x006f22
+[29976000][SB] Write payload mismatch idx2 exp=62 got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx3 exp=25 got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx4 exp=eb got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx5 exp=61 got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx6 exp=6d got=xx addr=0x006f22
+[29976000][SB] Write payload mismatch idx7 exp=87 got=xx addr=0x006f22
+[29976000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x004bd2 len=8 from=secondary)
+[29976000][SB] Write payload mismatch idx0 exp=16 got=ee addr=0x004bd2
+[29976000][SB] Write payload mismatch idx1 exp=2b got=7b addr=0x004bd2
+[29976000][SB] Write payload mismatch idx2 exp=f4 got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx3 exp=99 got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx4 exp=9e got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx5 exp=2d got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx6 exp=58 got=xx addr=0x004bd2
+[29976000][SB] Write payload mismatch idx7 exp=79 got=xx addr=0x004bd2
+[30951000][SB] Write payload mismatch idx0 exp=ee got=2e addr=0x003dd5
+[30951000][SB] Write payload mismatch idx1 exp=7b got=2f addr=0x003dd5
+[30951000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x0b addr=0x00342e len=7 from=main)
+[30951000][SB] Read data mismatch @0 exp=2e got=d1 addr=0x00342e
+[30951000][SB] Read data mismatch @1 exp=2f got=d0 addr=0x00342e
+[30951000][SB] Read data mismatch @2 exp=30 got=cf addr=0x00342e
+[30951000][SB] Read data mismatch @3 exp=31 got=ce addr=0x00342e
+[30951000][SB] Read data mismatch @4 exp=32 got=cd addr=0x00342e
+[30951000][SB] Read data mismatch @5 exp=33 got=cc addr=0x00342e
+[30951000][SB] Read data mismatch @6 exp=34 got=cb addr=0x00342e
+[31851000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x009688 len=1 from=main)
+[31851000][SB] Write payload mismatch idx0 exp=13 got=20 addr=0x009688
+[32266000][SB] Write payload mismatch idx0 exp=00 got=13 addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx1 exp=f4 got=xx addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx2 exp=4c got=xx addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx3 exp=12 got=xx addr=0x00e4ec
+[32266000][SB] Write payload mismatch idx4 exp=88 got=xx addr=0x00e4ec
+[33001000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x002076 len=8 from=secondary)
+[33001000][SB] Write payload mismatch idx0 exp=44 got=00 addr=0x002076
+[33001000][SB] Write payload mismatch idx1 exp=f1 got=f4 addr=0x002076
+[33001000][SB] Write payload mismatch idx2 exp=52 got=4c addr=0x002076
+[33001000][SB] Write payload mismatch idx3 exp=2e got=12 addr=0x002076
+[33001000][SB] Write payload mismatch idx4 exp=05 got=88 addr=0x002076
+[33001000][SB] Write payload mismatch idx5 exp=52 got=xx addr=0x002076
+[33001000][SB] Write payload mismatch idx6 exp=4c got=xx addr=0x002076
+[33001000][SB] Write payload mismatch idx7 exp=f2 got=xx addr=0x002076
+[33976000][SB] Write payload mismatch idx0 exp=36 got=00 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx1 exp=06 got=f4 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx2 exp=85 got=4c addr=0x0013ce
+[33976000][SB] Write payload mismatch idx3 exp=47 got=12 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx4 exp=07 got=88 addr=0x0013ce
+[33976000][SB] Write payload mismatch idx5 exp=24 got=xx addr=0x0013ce
+[34791000][SB] Flash select mismatch: expected 0 got 1 (WRITE cmd=0x02 addr=0x005668 len=1 from=secondary)
+[34791000][SB] Write payload mismatch idx0 exp=b1 got=36 addr=0x005668
+[35206000][SB] Write payload mismatch idx0 exp=4a got=36 addr=0x00d110
+[35206000][SB] Write payload mismatch idx1 exp=4b got=06 addr=0x00d110
+[35206000][SB] Write payload mismatch idx2 exp=5b got=85 addr=0x00d110
+[35206000][SB] Write payload mismatch idx3 exp=e2 got=47 addr=0x00d110
+[35206000][SB] Write payload mismatch idx4 exp=97 got=07 addr=0x00d110
+[35206000][SB] Write payload mismatch idx5 exp=0b got=24 addr=0x00d110
+[35206000][SB] Write payload mismatch idx6 exp=91 got=xx addr=0x00d110
+[36101000][SB] Flash select mismatch: expected 0 got 1 ( READ cmd=0x03 addr=0x00fc97 len=8 from=main)
+[36101000][SB] Read length mismatch exp=8 got=6 @0x00fc97
+==== TEST spi_stress_test FAILED: 183 errors (SB=183, TEST=0) ====
+$finish called from file "testbench.sv", line 104.
+$finish at simulation time             38076000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 38076000 ps
+CPU Time:      0.620 seconds;       Data structure size:   0.1Mb
+Fri Dec  5 03:31:40 2025
